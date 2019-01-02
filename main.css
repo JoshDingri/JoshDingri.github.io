@@ -16,11 +16,13 @@
   font-weight: 700;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-text {
+  opacity: 0.1;
 }
+.nav-item:hover .nav-text{
+  opacity: 1;
+}
+
 
 /* Add a color to the active/current link */
 .topnav a.active {
