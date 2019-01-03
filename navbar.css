@@ -1,0 +1,57 @@
+
+.nav-text {
+  float:right;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+.name-text{
+  float:left;
+  font-family: "Montserrat Bold";
+  padding: 14px 16px;
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+
+.maindiv{
+  background-image: url('images/background.jpg');
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.topnav .nav-text{
+  color:rgba(255,255,255,1);
+  -webkit-transition: color .3s ease-in;
+  -moz-transition: color .3s ease-in;
+  -o-transition: color .3s ease-in;
+  transition: color .3s ease-in;
+}
+
+.topnav:hover .nav-text{
+  color:rgba(255,255,255,.1);
+  -webkit-transition: color .3s ease-out;
+  -moz-transition: color .3s ease-out;
+  -o-transition: color .3s ease-out;
+  transition: color .3s ease-out;
+}
+
+.nav-text:hover{
+  color:rgba(255,255,255,1) !important;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
