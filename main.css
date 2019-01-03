@@ -1,11 +1,7 @@
 /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #ffffff;
-  overflow: hidden;
-}
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.nav-text {
   float: left;
   font-family: "Montserrat";
   color: #000;
@@ -14,13 +10,18 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
+  }
+
+.topnav .nav-text{
+	color:rgba(0,0,0,1);
 }
 
-.nav-text {
-  opacity: 0.1;
+.topnav:hover .nav-text{
+	color:rgba(0,0,0,.1);
 }
-.nav-item:hover .nav-text{
-  opacity: 1;
+
+.nav-text:hover{
+	color:rgba(0,0,0,1) !important;
 }
 
 
