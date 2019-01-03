@@ -2,11 +2,18 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="bio.css">
+  <link rel="stylesheet" href="aboutme.css">
   <title>Josh Dingri</title>
 </head>
 <body>
+  <script>
+  $(function(){
+    $("#aboutme").load("aboutme.html");
+  });
+  </script>
   <header>
     <div class="maindiv">
       <ul>
@@ -17,14 +24,15 @@
           <a href="#PROJECTS" class="nav-item"> <div class="nav-text"> PROJECTS</div> </a>
           <a href="#EXPERIENCE" class="nav-item"> <div class="nav-text"> EXPERIENCE</div> </a>
           <a href="#EDUCATION" class="nav-item"> <div class="nav-text"> EDUCATION</div> </a>
-          <a href="aboutme.html" class="nav-item"> <div class="nav-text"> ABOUT ME</div> </a>
+          <a href="#ABOUT" class="nav-item"> <div class="nav-text"> ABOUT ME</div> </a>
         </div>
       </ul>
+    </div>
       <span class="bio">
         WELCOME <span class="punc">,</span> </br>I AM JOSH DINGRI<span class="punc">.</span>
       </br> <span class="tagline"> CONFIDENT <span class="punc">-</span> DETERMINED <span class="punc">-</span> PASSIONATE </span>
     </span>
-    </div>
   </header>
+  <div id="aboutme"></div>
 </body>
 </html>

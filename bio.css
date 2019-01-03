@@ -1,16 +1,24 @@
+@font-face {
+  font-family: MontserratReg;
+  src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+.centre-bio {
+
+}
+
 .bio{
-  font-family: "Montserrat";
-  text-align: center;
+  font-family: MontserratReg;
   font-size: 50px;
-  margin: 0 auto;
   font-weight: bold;
-  padding-top: 300px;
   position: absolute;
   color: white;
+  text-align: center;
+  margin: 0 auto;
   top: 10%;
-  left: 40%;
-  margin-left: -50px;
-  margin-top: -25px;
+  padding-top: 300px;
+  left: 35%;
+
 }
 
 .punc{

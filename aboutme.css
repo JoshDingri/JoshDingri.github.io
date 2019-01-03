@@ -1,5 +1,11 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+
 .about-header {
-  font-family: "Montserrat";
+  font-family: MontserratBold;
   font-size: 20px;
   font-weight: bold;
   position: relative;
