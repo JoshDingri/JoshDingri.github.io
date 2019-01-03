@@ -16,3 +16,8 @@
 .punc{
   color: yellow;
 }
+
+.tagline {
+  font-weight: lighter;
+  font-size: 16px;
+}

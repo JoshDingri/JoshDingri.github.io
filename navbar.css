@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: MontserratBold;
+  src: url(Fonts/Montserrat-bold.ttf);
+}
+
 .nav-text {
   float:right;
   font-family: "Montserrat";
@@ -10,7 +15,7 @@
 
 .name-text{
   float:left;
-  font-family: "Montserrat Bold";
+  font-family: MontserratBold;
   padding: 14px 16px;
   font-size: 34px;
   font-weight: bold;
@@ -18,7 +23,6 @@
   padding-left: 80px;
   padding-top: 40px;
 }
-
 
 .maindiv{
   background-image: url('images/background.jpg');
@@ -32,18 +36,18 @@
 
 .topnav .nav-text{
   color:rgba(255,255,255,1);
-  -webkit-transition: color .3s ease-in;
-  -moz-transition: color .3s ease-in;
-  -o-transition: color .3s ease-in;
-  transition: color .3s ease-in;
+  -webkit-transition: color .5s ease-in;
+  -moz-transition: color .5s ease-in;
+  -o-transition: color .5s ease-in;
+  transition: color .5s ease-in;
 }
 
 .topnav:hover .nav-text{
   color:rgba(255,255,255,.1);
-  -webkit-transition: color .3s ease-out;
-  -moz-transition: color .3s ease-out;
-  -o-transition: color .3s ease-out;
-  transition: color .3s ease-out;
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
 }
 
 .nav-text:hover{
