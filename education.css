@@ -1,0 +1,40 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratReg;
+  src: url(Fonts/Montserrat-Reg.ttf);
+}
+
+
+
+.education-section {
+  padding-bottom: 500px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #F0FFFF;
+  margin-top: -20px;
+}
+
+.col1Header{
+  font-size: 10px;
+}
+.col2Header{
+  font-size: 10px;
+}
+
+.col1{
+  margin-left: 120px;
+  float:left;
+}
+.col2{
+  width: 350px;
+  margin-right: 120px;
+  float:right;
+}
+
+.row2{
+  padding-top: 300px;
+}
