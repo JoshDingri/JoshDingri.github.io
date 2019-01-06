@@ -14,27 +14,62 @@
   padding-bottom: 500px;
   padding-top: 50px;
   text-align: center;
-  background-color: #F0FFFF;
+  background-color: #FFF5EE;
   margin-top: -20px;
 }
 
 .col1Header{
-  font-size: 10px;
+  font-family: MontserratBold;
+  font-size: 9px;
 }
 .col2Header{
-  font-size: 10px;
+  font-family: MontserratBold;
+  font-size: 8px;
 }
 
 .col1{
-  margin-left: 120px;
+  margin: 0 auto;
+  width: 350px;
+  padding-left: 80px;
   float:left;
 }
 .col2{
+  text-align: left;
   width: 350px;
-  margin-right: 120px;
+  margin-right: 140px;
   float:right;
 }
 
 .row2{
-  padding-top: 300px;
+  padding-top: 250px;
+}
+
+.row3{
+  padding-top: 200px;
+}
+
+.educationText {
+  font-size: 12px;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -67px;
+  top: 0;
+  margin-top: 50cm;
+}
+
+.circle {
+  margin-left: -76.58px;
+  top: 0;
+  position: absolute;
+  left: 50%;
+  margin-top: 50.75cm;
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
 }

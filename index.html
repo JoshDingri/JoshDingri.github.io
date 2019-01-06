@@ -17,7 +17,7 @@
   $(function(){
     function scrollToAnchor(aid){
       var aTag = $("a[name='"+ aid +"']");
-      $('html,body').animate({scrollTop: aTag.offset().top -40},'slow');
+      $('html,body').animate({scrollTop: aTag.offset().top -30},'slow');
     }
 
     $("#aboutlink").click(function() {
@@ -28,11 +28,16 @@
       scrollToAnchor('education-anchor');
     });
 
+    $("#projectslink").click(function() {
+      scrollToAnchor('projects-anchor');
+    });
+
   });
 
   $(function(){
     $("#aboutme").load("aboutme.html");
     $("#education").load("education.html");
+    $("#projects").load("projects.html");
   });
 
   </script>
@@ -45,7 +50,7 @@
           <a href="#CONTACT"class="nav-item">  <div class="nav-text"> CONTACT</div> </a>
           <a href="#INTERESTS" class="nav-item"> <div class="nav-text"> INTERESTS</div> </a>
           <a href="#EXPERIENCE" class="nav-item"> <div class="nav-text"> EXPERIENCE</div> </a>
-          <a href="#PROJECTS" class="nav-item"> <div class="nav-text"> PROJECTS</div> </a>
+          <a id="projectslink" href="#"> <div class="nav-text"> PROJECTS</div> </a>
           <a id="educationlink" href="#" > <div class="nav-text"> EDUCATION</div> </a>
           <a id="aboutlink" href="#" > <div class="nav-text"> ABOUT ME</div> </a>
         </div>
@@ -58,5 +63,6 @@
   </header>
   <div id="aboutme"></div>
   <div id="education"></div>
+  <div id="projects"></div>
 </body>
 </html>
