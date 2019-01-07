@@ -41,11 +41,21 @@
     $("#projects").load("projects.html");
   });
 
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixedNav");
+    var $navtext = $(".nav-text");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $navtext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
   </script>
 
   <header>
     <div class="maindiv">
       <div class= "mainNav">
+      <div class= "fixedNav">
       <ul>
         <a href="#HOME" class= "nav-item"> <div class="name-text"> JOSH DINGRI </div> </a>
         <div class="topnav">
@@ -58,6 +68,7 @@
         </div>
       </ul>
     </div>
+  </div>
     </div>
       <span class="bio">
         WELCOME <span class="punc">,</span> </br>I AM JOSH DINGRI<span class="punc">.</span>

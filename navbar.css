@@ -34,9 +34,23 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
+.fixedNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-text.scrolled {
+  padding-top: 5px;
+}
+
+.fixedNav.scrolled{
+  background-color: #000 !important;
+  transition: background-color 200ms linear;
+}
 
 .topnav .nav-text{
   color:rgba(255,255,255,1);
