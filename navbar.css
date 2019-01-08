@@ -22,6 +22,7 @@
 }
 
 .name-text{
+  display: inline-block;
   float:left;
   font-family: MontserratBold;
   padding: 14px 16px;
@@ -42,32 +43,37 @@
 .fixedNav {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 98.66%;
   z-index: 1;
 }
 
 .nav-text.scrolled {
-  margin-right: 50px;
+  font-size: 20px;
+  margin-right: 30px;
 }
 
 .name-text.scrolled {
-  display:inline-block;
+  margin-left: 70px;
   font-size: 25px;
+  margin-top: -3px;
 }
 
 .fixedNav.scrolled {
-  background-color: green !important;
-  transition: all 200ms linear;
+  right:10;
+  background-color: #525252 !important;
+  transition: all 700ms linear;
 }
 
 .fixedNav.scrolled .nav-text {
+  margin-right: 0px;
   padding-top: 2px !important;
-  transition: all 500ms linear;
+  transition: padding-top .7s, padding-right 700ms ease .5s;
 }
 
 .fixedNav.scrolled .name-text {
+  margin-right: 0px;
   padding-top: 2px !important;
-  transition: all 500ms linear;
+  transition: padding-top .7s, font-size .7s, margin-left .7s;
 }
 
 

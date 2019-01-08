@@ -18,18 +18,21 @@
   $(function(){
     function scrollToAnchor(aid){
       var aTag = $("a[name='"+ aid +"']");
-      $('html,body').animate({scrollTop: aTag.offset().top -30},'slow');
+      $('html,body').animate({scrollTop: aTag.offset().top -100},'slow');
     }
 
-    $("#aboutlink").click(function() {
+    $("#aboutlink").click(function(e) {
+      e.preventDefault();
       scrollToAnchor('about-anchor');
     });
 
-    $("#educationlink").click(function() {
+    $("#educationlink").click(function(e) {
+      e.preventDefault();
       scrollToAnchor('education-anchor');
     });
 
-    $("#projectslink").click(function() {
+    $("#projectslink").click(function(e) {
+      e.preventDefault();
       scrollToAnchor('projects-anchor');
     });
 
@@ -53,7 +56,6 @@
 });
 
   </script>
-
   <header>
     <div class="maindiv">
       <div class= "mainNav">
