@@ -10,6 +10,7 @@
 }
 
 .nav-text {
+  display: inline-block;
   float:right;
   font-family: MontserratReg;
   font-size: 20px;
@@ -44,12 +45,22 @@
 }
 
 .nav-text.scrolled {
-  padding-top: 5px;
+  display:inline-block;
+  padding-top: 10px;
+  padding-right: 65px;
+}
+
+.name-text.scrolled {
+  display:inline-block;
+  font-size: 25px;
+  padding-top: 10px;
+  transition: font-size 1000ms ease;
 }
 
 .fixedNav.scrolled{
-  background-color: #000 !important;
-  transition: background-color 200ms linear;
+  padding-bottom: -40px !important;
+  background-color: green !important;
+  transition: all 200ms linear;
 }
 
 .topnav .nav-text{

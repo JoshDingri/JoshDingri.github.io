@@ -45,8 +45,10 @@
   $(document).scroll(function () {
     var $nav = $(".fixedNav");
     var $navtext = $(".nav-text");
+    var $nametext = $(".name-text");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     $navtext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $nametext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
 
