@@ -1,0 +1,26 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratReg;
+  src: url(Fonts/Montserrat-Reg.ttf);
+}
+
+#experience-section {
+  padding-bottom: 500px;
+  padding-top: 50px;
+  text-align: center;
+  background-color:#FFFAF0;
+  margin-top: -20px;
+}
+
+.section-text {
+    font-family: MontserratReg;
+    margin: auto;
+    width: 1000px;
+}
+
+.text-div {
+  width: 500px;
+}
