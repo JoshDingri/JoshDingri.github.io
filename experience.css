@@ -7,7 +7,7 @@
   src: url(Fonts/Montserrat-Reg.ttf);
 }
 
-#experience-section {
+.experience-section {
   padding-bottom: 500px;
   padding-top: 50px;
   text-align: center;
@@ -15,12 +15,14 @@
   margin-top: -20px;
 }
 
-.section-text {
-    font-family: MontserratReg;
-    margin: auto;
-    width: 1000px;
+.experienceSection-text {
+  font-family: MontserratReg;
 }
 
-.text-div {
-  width: 500px;
+
+.hl {
+  border-left: 6px solid green;
+  height: 600px;
+  position: relative;
+
 }

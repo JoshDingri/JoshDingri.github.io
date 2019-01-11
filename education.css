@@ -61,9 +61,11 @@
   top: 0;
   opacity: 0.3;
   margin-top: 2088px;
+  z-index: -1;
 }
 
 .centreContainer {
+  opacity: 1;
   position: relative;
 }
 
