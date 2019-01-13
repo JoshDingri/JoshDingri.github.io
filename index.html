@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="education.css">
   <link rel="stylesheet" href="projects.css">
   <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="abilities.css">
   <title>Josh Dingri</title>
 
 
@@ -42,6 +43,10 @@
       scrollToAnchor('experience-anchor');
     });
 
+    $("#abilitieslink").click(function(e) {
+      e.preventDefault();
+      scrollToAnchor('abilities-anchor');
+    });
 
   });
 
@@ -50,6 +55,7 @@
     $("#education").load("education.html");
     $("#projects").load("projects.html");
     $("#experience").load("experience.html");
+    $("#abilities").load("abilities.html");
   });
 
   $(function () {
@@ -73,7 +79,7 @@
         <div class="topnav">
           <a href="#CONTACT"class="nav-item">  <div class="nav-text"> CONTACT</div> </a>
           <a id="projectslink" href="#"> <div class="nav-text"> PROJECTS</div> </a>
-          <a href="#Skills" class="nav-item"> <div class="nav-text"> ABILITIES</div> </a>
+          <a id="abilitieslink" href="#"> <div class="nav-text"> ABILITIES</div> </a>
           <a id="experiencelink" href="#"> <div class="nav-text"> EXPERIENCE</div> </a>
           <a id="educationlink" href="#" > <div class="nav-text"> EDUCATION</div> </a>
           <a id="aboutlink" href="#" > <div class="nav-text"> ABOUT ME</div> </a>
@@ -90,6 +96,7 @@
   <div id="aboutme"></div>
   <div id="education"></div>
   <div id="experience"></div>
+  <div id="abilities"></div>
   <div id="projects"></div>
 </body>
 </html>

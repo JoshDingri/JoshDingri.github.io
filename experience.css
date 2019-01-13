@@ -8,7 +8,7 @@
 }
 
 .experience-section {
-  padding-bottom: 1000px;
+  padding-bottom: 300px;
   padding-top: 50px;
   text-align: center;
   background-color:#FFFAF0;
@@ -60,47 +60,4 @@
   transform: translate(-50%, -50%);
   width: 40px;
   height: 40px;
-}
-
-.subHeader{
-  color: #2C9C91;
-  margin-left: -660px;
-  font-size: 30px;
-}
-.subHeader2{
-  color: #2C9C91;
-  margin-left: -430px;
-  margin-top: 200px;
-  font-size: 30px;
-  position: absolute;
-}
-
-.headingRow {
-  font-weight: bold;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.skillText {
-  padding-top: 10px;
-  font-size: 20px;
-}
-
-.container {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.skillHeadings {
-  margin-top: 200px;
-  font-size: 28px;
-  display: block;
-  flex: 0 1 auto; /* Default */
-  list-style-type: none;
-}
-.star {
-  width: 20px;
-  height: 20px;
 }

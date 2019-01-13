@@ -1,0 +1,72 @@
+.headingRow {
+  font-weight: bold;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.skillText {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.container {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.skillHeadings {
+  font-size: 22px;
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.abilities-section {
+  padding-bottom: 300px;
+  padding-top: 50px;
+  text-align: center;
+  background-color:#FFFAF0;
+  margin-top: -20px;
+}
+
+.sectionDivider2 {
+    border: 0;
+    margin-top: 50px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 0.75), rgba(0, 0, 255, 0));
+}
+
+.skillHeading {
+  float: left;
+
+}
+.skillHeading2 {
+  float: left;
+
+}
+.skillHeading3 {
+  float: right;
+}
+
+.subHeader{
+  color: #2C9C91;
+  margin-left: -850px;
+  font-size: 40px;
+}
+.subHeader2{
+  color: #2C9C91;
+  margin-left: -850px;
+  font-size: 40px;
+}
+
+.toolsSection {
+  text-align: left;
+  font-size: 20px;
+}
