@@ -1,28 +1,30 @@
 .headingRow {
-  font-weight: bold;
+  /* font-weight: bold;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0; */
 }
+@font-face {
+  font-family: typewriter;
+  src: url(Fonts/rm_typerighter.ttf);
+}
+
 .skillText {
+  font-family: "typewriter";
+  font-weight: normal;
   padding-top: 10px;
   font-size: 20px;
 }
 
 .container {
   padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  width:100%;
+  text-align:center;
 }
-.skillHeadings {
-  font-size: 22px;
-  display: block;
-  flex: 0 1 auto; /* Default */
-  list-style-type: none;
-}
+
 .star {
   width: 20px;
   height: 20px;
@@ -44,15 +46,23 @@
 }
 
 .skillHeading {
+  font-size: 22px;
+  font-weight: bold;
   float: left;
-
+  width:200px;
 }
 .skillHeading2 {
-  float: left;
-
+  font-size: 22px;
+  font-weight: bold;
+  margin:0 auto !important;
+  display:inline-block;
+  width:200px;
 }
 .skillHeading3 {
+  font-size: 22px;
+  font-weight: bold;
   float: right;
+  width:200px;
 }
 
 .subHeader{

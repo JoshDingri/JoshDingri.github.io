@@ -7,6 +7,12 @@
   src: url(Fonts/Montserrat-Reg.ttf);
 }
 
+@font-face {
+  font-family: typewriter;
+  src: url(Fonts/larabiefont-free.regular.ttf);
+}
+
+
 .section-header {
   font-family: MontserratBold;
   font-size: 25px;
