@@ -46,6 +46,7 @@
 }
 
 .skillHeading {
+  margin-top: -20px;
   font-size: 22px;
   font-weight: bold;
   float: left;
@@ -53,12 +54,14 @@
 }
 .skillHeading2 {
   font-size: 22px;
+  margin-top: -10px;
   font-weight: bold;
   margin:0 auto !important;
   display:inline-block;
   width:200px;
 }
 .skillHeading3 {
+  margin-top: -10px;
   font-size: 22px;
   font-weight: bold;
   float: right;
@@ -67,13 +70,25 @@
 
 .subHeader{
   color: #2C9C91;
-  margin-left: -850px;
-  font-size: 40px;
+  font-size: 25px;
 }
+.skillsLogo{
+  padding-bottom: 10px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.toolsLogo{
+  padding-bottom: 10px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+}
+
 .subHeader2{
   color: #2C9C91;
-  margin-left: -850px;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .toolsSection {
