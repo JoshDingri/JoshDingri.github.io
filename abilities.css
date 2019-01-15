@@ -46,7 +46,6 @@
 }
 
 .skillHeading {
-  margin-top: -20px;
   font-size: 22px;
   font-weight: bold;
   float: left;
@@ -54,14 +53,12 @@
 }
 .skillHeading2 {
   font-size: 22px;
-  margin-top: -10px;
   font-weight: bold;
   margin:0 auto !important;
   display:inline-block;
   width:200px;
 }
 .skillHeading3 {
-  margin-top: -10px;
   font-size: 22px;
   font-weight: bold;
   float: right;
@@ -94,4 +91,8 @@
 .toolsSection {
   text-align: left;
   font-size: 20px;
+}
+
+.container {
+  margin-top: -20px;
 }

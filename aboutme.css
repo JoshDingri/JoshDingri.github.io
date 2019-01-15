@@ -6,7 +6,10 @@
   font-family: MontserratReg;
   src: url(Fonts/Montserrat-Reg.ttf);
 }
-
+@font-face {
+  font-family: MontserratThin;
+  src: url(Fonts/Montserrat-ExtraLight.ttf);
+}
 @font-face {
   font-family: typewriter;
   src: url(Fonts/larabiefont-free.regular.ttf);
@@ -14,11 +17,11 @@
 
 
 .section-header {
-  font-family: MontserratBold;
-  font-size: 25px;
+  font-family: MontserratThin;
+  font-size: 40px;
   font-weight: bold;
   position: relative;
-  color: #2F4F4F;
+  color: black;
 }
 
 .sectionDivider {
