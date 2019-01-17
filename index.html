@@ -19,13 +19,18 @@
   <script type="text/javascript">
 
   window.onload = function(){
-      var str = "WELCOME <span class='punc'>,</span> </br>I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> CONFIDENT <span class='punc'>-</span> DETERMINED <span class='punc'>-</span> PASSIONATE </span>",
-      i = 0,
-      isTag,
-      text; (function type() {
-        text = str.slice(0, ++i);
-        if (text === str) return;
-
+      var str2 = "BONJOUR <span class='punc'>?</span> ";
+      var str = "</br>I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> CONFIDENT <span class='punc'>-</span> DETERMINED <span class='punc'>-</span> PASSIONATE </span>";
+      var str3 = "HOLA <span class='punc'>?</span> ";
+      var str4 = "HELLO <span class='punc'>!</span> ";
+      i = 0;
+      isTag = false;
+      text = "";
+      (function type() {
+        text = str2.slice(0, ++i);
+        if (text === "BONJOUR!") {
+            removeType();
+        }
         document.getElementById('bio').innerHTML = text;
 
         var char = text.slice(-1);
@@ -34,6 +39,19 @@
 
         if (isTag) return type();
         setTimeout(type, 80);
+    }());
+
+    (function removeType() {
+      text = str2.slice(0, --i);
+      if(text == ""){
+        str2="that worked";
+      }
+      document.getElementById('bio').innerHTML = text;
+      var char = text.slice(-1);
+      if( char === '<' ) isTag = true;
+      if( char === '>' ) isTag = false;
+      if (isTag) return removeType();
+      setTimeout(removeType, 80);
     }());
   }
 
