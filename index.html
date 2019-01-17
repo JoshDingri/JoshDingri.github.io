@@ -26,10 +26,13 @@
       i = 0;
       isTag = false;
       text = "";
-      (function type() {
+      type(i,isTag,text,str2);
+    }
+      function type(i,isTag,text,str2){
         text = str2.slice(0, ++i);
-        if (text === "BONJOUR!") {
-            removeType();
+        if (text === str2) {
+          removeType(i,false,text,str2);
+          return;
         }
         document.getElementById('bio').innerHTML = text;
 
@@ -37,23 +40,20 @@
         if( char === '<' ) isTag = true;
         if( char === '>' ) isTag = false;
 
-        if (isTag) return type();
-        setTimeout(type, 80);
-    }());
+        if (isTag) return type(i,isTag,text,str2);
+        setTimeout(function() { type(i,isTag,text,str2);}, 80);
+    }
 
-    (function removeType() {
+    function removeType(i,isTag,text,str2) {
+      alert(str2)
       text = str2.slice(0, --i);
       if(text == ""){
-        str2="that worked";
+        return;
       }
       document.getElementById('bio').innerHTML = text;
-      var char = text.slice(-1);
-      if( char === '<' ) isTag = true;
-      if( char === '>' ) isTag = false;
-      if (isTag) return removeType();
-      setTimeout(removeType, 80);
-    }());
-  }
+      setTimeout(function() { removeType(i,isTag,text,str2);}, 80);
+    }
+
 
   $(function(){
     function scrollToAnchor(aid){
