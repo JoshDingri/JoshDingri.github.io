@@ -3,7 +3,7 @@
   src: url(Fonts/Montserrat-Regular.ttf);
 }
 
-.bio{
+#bio{
   font-family: MontserratReg;
   font-size: 50px;
   font-weight: bold;

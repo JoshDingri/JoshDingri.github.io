@@ -24,7 +24,7 @@
 }
 
 .hl {
-  border-left: 6px solid #1C3863;
+  border-left: 3px solid #1C3863;
   height: 600px;
   position: absolute;
   left: 50%;
@@ -39,8 +39,8 @@
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .timelineCircle2 {
@@ -49,8 +49,8 @@
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .timelineCircle3 {
   left: 50%;
@@ -58,6 +58,11 @@
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+}
+
+.keySkill{
+  color: green;
+  font-weight: bold;
 }

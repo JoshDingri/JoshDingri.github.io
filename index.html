@@ -17,6 +17,26 @@
 </head>
 <body>
   <script type="text/javascript">
+
+  window.onload = function(){
+      var str = "WELCOME <span class='punc'>,</span> </br>I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> CONFIDENT <span class='punc'>-</span> DETERMINED <span class='punc'>-</span> PASSIONATE </span>",
+      i = 0,
+      isTag,
+      text; (function type() {
+        text = str.slice(0, ++i);
+        if (text === str) return;
+
+        document.getElementById('bio').innerHTML = text;
+
+        var char = text.slice(-1);
+        if( char === '<' ) isTag = true;
+        if( char === '>' ) isTag = false;
+
+        if (isTag) return type();
+        setTimeout(type, 80);
+    }());
+  }
+
   $(function(){
     function scrollToAnchor(aid){
       var aTag = $("a[name='"+ aid +"']");
@@ -50,6 +70,8 @@
 
   });
 
+
+
   $(function(){
     $("#aboutme").load("aboutme.html");
     $("#education").load("education.html");
@@ -68,6 +90,8 @@
     $nametext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+
 
   </script>
   <header>
@@ -88,10 +112,7 @@
     </div>
   </div>
     </div>
-      <span class="bio">
-        WELCOME <span class="punc">,</span> </br>I AM JOSH DINGRI<span class="punc">.</span>
-      </br> <span class="tagline"> CONFIDENT <span class="punc">-</span> DETERMINED <span class="punc">-</span> PASSIONATE </span>
-    </span>
+      <div id="bio"> </div>
   </header>
   <div id="aboutme"></div>
   <div id="education"></div>
