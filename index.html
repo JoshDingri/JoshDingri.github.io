@@ -19,20 +19,28 @@
   <script type="text/javascript">
 
   window.onload = function(){
-      var str2 = "BONJOUR<span class='punc'>?</span>";
-      var str = "</br>I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> CONFIDENT <span class='punc'>-</span> DETERMINED <span class='punc'>-</span> PASSIONATE </span>";
-      var str3 = "HOLA<span class='punc'>?</span>";
-      var str4 = "HELLO <span class='punc'>!</span> ";
+      str2 = "SALUT<span class='punc'>!</span>";
+      str = "I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> Web Developer <span class='punc'>-</span> Software Engineer </span>";
+      str3 = "HOLA<span class='punc'>!</span>";
+      str4 = "HELLO <span class='punc'>!</span> ";
+      str5 = " <span class='welcome'>WELCOME TO MY INTERACTIVE CV<span class='punc'>!</span></span>";
+      count = 0;
       i = 0;
       j = 0;
       isTag = false;
       text = "";
-      type(i,isTag,text,str2);
+      setTimeout(function() {type(i,isTag,text,str2);}, 1000);
+
     }
       function type(i,isTag,text,str2){
         text = str2.slice(0, ++i);
         if (text === str2) {
-          setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
+          if(count < 4){
+            if(count == 3)
+              setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
+            else
+              setTimeout(function() { removeType(i,isTag,text,str2);}, 1000);
+          }
           return;
         }
         document.getElementById('bio').innerHTML = text;
@@ -42,40 +50,34 @@
         if( char === '>' ) isTag = false;
 
         if (isTag) return type(i,isTag,text,str2);
-        setTimeout(function() { type(i,isTag,text,str2);}, 80);
+        setTimeout(function() { type(i,isTag,text,str2);}, 50);
     }
 
     function removeType(i,isTag,text,str2) {
       text = str2.slice(0, i--);
 
-      document.getElementById('bio').innerHTML = text;
-      if(text == 0){
-        var str3 = "HOLA<span class='punc'>?</span>";
-        j = 0;
-        setTimeout(function() { type2(j,false,"",str3);}, 200);
+      if(text === ''){
+        i = 0;
+        count++;
+        if(count == 1)
+          setTimeout(function() { type(i,false,"",str3);}, 100);
+        else if(count == 2)
+          setTimeout(function() { type(i,false,"",str4);}, 100);
+        else if(count == 3)
+          setTimeout(function() { type(i,false,"",str5);}, 100);
+        else if(count == 4)
+          setTimeout(function() { type(i,false,"",str);}, 100);
         return;
       }
+      document.getElementById('bio').innerHTML = text;
+
       var char = text.slice(-1);
       if( char === '>' ) isTag = true;
       if( char === '<' ) isTag = false;
-      if (isTag) return removeType(i,isTag,text,str2);
-      setTimeout(function() { removeType(i,isTag,text,str2);}, 100);
+      if (isTag || char === '<') return removeType(i,isTag,text,str2);
+      setTimeout(function() { removeType(i,isTag,text,str2);}, 50);
 
     }
-
-    function type2(j,isTag,text,str3){
-      text = str3.slice(0, ++j);
-      if (text === str3) {
-        return;
-      }
-      document.getElementById('bio').innerHTML = text;
-      var char = text.slice(-1);
-      if( char === '<' ) isTag = true;
-      if( char === '>' ) isTag = false;
-
-      if (isTag) return type2(j,isTag,text,str3);
-      setTimeout(function() { type2(j,isTag,text,str3);}, 80);
-  }
 
 
   $(function(){
