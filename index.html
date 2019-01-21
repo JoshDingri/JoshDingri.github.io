@@ -22,24 +22,24 @@
       str2 = "SALUT<span class='punc'>!</span>";
       str = "I AM JOSH DINGRI<span class='punc'>.</span></br> <span class='tagline'> Web Developer <span class='punc'>-</span> Software Engineer </span>";
       str3 = "HOLA<span class='punc'>!</span>";
-      str4 = "HELLO <span class='punc'>!</span> ";
+      str4 = "HELLO VISITOR<span class='punc'> :)</span> ";
       str5 = " <span class='welcome'>WELCOME TO MY INTERACTIVE CV<span class='punc'>!</span></span>";
       count = 0;
       i = 0;
       j = 0;
       isTag = false;
       text = "";
-      setTimeout(function() {type(i,isTag,text,str2);}, 1000);
+      setTimeout(function() {type(i,isTag,text,str4);}, 1000);
 
     }
       function type(i,isTag,text,str2){
         text = str2.slice(0, ++i);
         if (text === str2) {
-          if(count < 4){
-            if(count == 3)
+          if(count < 2){
+            if(count == 1)
               setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
             else
-              setTimeout(function() { removeType(i,isTag,text,str2);}, 1000);
+              setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
           }
           return;
         }
@@ -60,12 +60,8 @@
         i = 0;
         count++;
         if(count == 1)
-          setTimeout(function() { type(i,false,"",str3);}, 100);
-        else if(count == 2)
-          setTimeout(function() { type(i,false,"",str4);}, 100);
-        else if(count == 3)
           setTimeout(function() { type(i,false,"",str5);}, 100);
-        else if(count == 4)
+        else if(count == 2)
           setTimeout(function() { type(i,false,"",str);}, 100);
         return;
       }
@@ -75,8 +71,7 @@
       if( char === '>' ) isTag = true;
       if( char === '<' ) isTag = false;
       if (isTag || char === '<') return removeType(i,isTag,text,str2);
-      setTimeout(function() { removeType(i,isTag,text,str2);}, 50);
-
+      setTimeout(function() { removeType(i,isTag,text,str2);}, 30);
     }
 
 
