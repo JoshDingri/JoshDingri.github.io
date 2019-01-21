@@ -29,7 +29,6 @@
 
 .col1{
   margin: 0 auto;
-  padding-left: 110px;
   width: 350px;
   float:left;
   text-align: left;
@@ -37,31 +36,31 @@
 .col2{
   text-align: left;
   width: 350px;
-  margin-right: 30px;
+  margin-right: 180px;
   float:right;
 }
 
 .row2{
-  padding-top: 250px;
-}
-
-.row3{
   padding-top: 200px;
 }
 
+.row3{
+  padding-top: 250px;
+}
+
 .educationText {
-  font-size: 12px;
+  font-size: 13px;
+  width:520px;
 }
 
 .vl {
-  border-left: 6px solid green;
-  height: 600px;
+  border-left: 3px solid #1C3863;
+  height: 630px;
   position: absolute;
-  left: 50%;
-  top: 0;
-  opacity: 0.3;
-  margin-top: 2088px;
-  z-index: -1;
+  left:38%;
+  margin-right: -50%;
+  margin-top: -150px;
+  transform: translate(-50%, -50%);
 }
 
 .centreContainer {
@@ -70,23 +69,28 @@
 }
 
 .bookImage {
+  height: 40px;
+  width: 40px;
+  left:38%;
+  margin-right: -50%;
   position: absolute;
-  bottom: 160px;
-  left: 485px;
+  transform: translate(-50%, -50%);
+}
+.bookImage2 {
+  left:38%;
+  margin-top: -430px;
+  margin-right: -50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
   height: 40px;
   width: 40px;
 }
-.bookImage2 {
-  position: absolute;
-  bottom: 400px;
-  left: 480px;
-  height: 50px;
-  width: 50px;
-}
 .bookImage3 {
+  left:38%;
+  margin-top: -200px;
+  margin-right: -50%;
   position: absolute;
-  bottom: -40px;
-  left: 485px;
+  transform: translate(-50%, -50%);
   height: 40px;
   width: 40px;
 }

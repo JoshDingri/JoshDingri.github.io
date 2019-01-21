@@ -27,14 +27,14 @@
   border-left: 3px solid #1C3863;
   height: 600px;
   position: absolute;
-  left: 50%;
+  left:38%;
   margin-right: -50%;
   margin-top: -150px;
   transform: translate(-50%, -50%);
 }
 
 .timelineCircle1 {
-  left: 50%;
+  left:38%;
   margin-top: -430px;
   margin-right: -50%;
   position: absolute;
@@ -44,8 +44,8 @@
 }
 
 .timelineCircle2 {
-  left: 50%;
-  margin-top: -180px;
+  left:38%;
+  margin-top: -225px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -53,7 +53,7 @@
   height: 30px;
 }
 .timelineCircle3 {
-  left: 50%;
+  left:38%;
   margin-top: 20px;
   margin-right: -50%;
   position: absolute;
@@ -63,6 +63,6 @@
 }
 
 .keySkill{
-  color: green;
+  color: black;
   font-weight: bold;
 }
