@@ -20,7 +20,7 @@
 
 .col1Header{
   font-family: MontserratBold;
-  font-size: 9px;
+  font-size: 8px;
 }
 .col2Header{
   font-family: MontserratBold;
@@ -36,30 +36,30 @@
 .col2{
   text-align: left;
   width: 350px;
-  margin-right: 180px;
+  margin-right: 205px;
   float:right;
 }
 
 .row2{
-  padding-top: 250px;
+  padding-top: 300px;
 }
 
 .row3{
-  padding-top: 220px;
+  padding-top: 240px;
 }
 
 .educationText {
   font-size: 13px;
-  width:520px;
+  width:560px;
 }
 
 .vl {
   border-left: 3px solid #1C3863;
-  height: 620px;
+  height: 690px;
   position: absolute;
-  left:38%;
+  left:36%;
   margin-right: -50%;
-  margin-top: -170px;
+  margin-top: -200px;
   transform: translate(-50%, -50%);
 }
 
@@ -69,38 +69,37 @@
 }
 
 .bookImage {
-  height: 35px;
-  width: 35px;
-  left:38%;
+  height: 40px;
+  width: 40px;
+  left:36%;
   margin-top: 20px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.bookImage2 {
-  left:38%;
-  margin-top: -448px;
+.gradimage {
+  left:36%;
+  margin-top: -521px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
 }
-.bookImage3 {
-  left:38%;
-  margin-top: -198px;
+.bookImage2 {
+  left:36%;
+  margin-top: -220px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
 }
 
 .info {
   color: green;
   font-size: 12px;
-  display: flex;
-  align-items: center;
+
 }
 .pin {
   width: 15px;

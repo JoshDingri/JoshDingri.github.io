@@ -7,6 +7,16 @@
   src: url(Fonts/Montserrat-Reg.ttf);
 }
 
+
+.row2exp{
+  padding-top: 200px;
+}
+
+.row3exp{
+  padding-top: 240px;
+}
+
+
 .experience-section {
   padding-bottom: 300px;
   padding-top: 50px;
@@ -25,41 +35,41 @@
 
 .hl {
   border-left: 3px solid #1C3863;
-  height: 550px;
+  height: 590px;
   position: absolute;
-  left:38%;
+  left:36%;
   margin-right: -50%;
-  margin-top: -145px;
+  margin-top: -150px;
   transform: translate(-50%, -50%);
 }
 
 .timelineCircle1 {
-  left:38%;
-  margin-top: -400px;
+  left:36%;
+  margin-top: -420px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .timelineCircle2 {
-  left:38%;
-  margin-top: -200px;
+  left:36%;
+  margin-top: -220px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 .timelineCircle3 {
-  left:38%;
+  left:36%;
   margin-top: 20px;
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .keySkill{
