@@ -32,24 +32,69 @@
 }
 
 #about-section {
-  padding-bottom: 500px;
+  padding-bottom: 1000px;
   padding-top: 50px;
   text-align: center;
   background-color:#FFFAF0;
   margin-top: -20px;
 }
+.about-text {
 
+  width: 1000px;
+  margin: 0 auto;
+  display: table;
+}
 .section-text {
-    font-family: MontserratReg;
-    margin: auto;
-    width: 1000px;
+  text-align: center;
+  margin: auto;
+  width: 1000px;
 }
 
 .text-div {
+  font-family: MontserratReg;
   width: 500px;
+  float: left;
+  font-size: 18px;
+  text-align: left;
 }
 
-.imageme {
+.contactImages  {
+  clear:right;
+  display: block;
+  float: right;
+}
+
+.contactImageLI {
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+  vertical-align: middle;
+  height:40px;
+  width:40px;
+}
+.contactImageGH {
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+    vertical-align: middle;
+  height:50px;
+  width:50px;
+}
+.contactImageML {
+  background-repeat: no-repeat;
+  display: inline-block;
+    vertical-align: middle;
+  background-size: cover;
+  height:40px;
+  width:40px;
+}
+
+
+.rightContainer{
+  text-align: right;
+}
+
+.imageme{
   height: 40%;
   width: 40%;
   float: right;
