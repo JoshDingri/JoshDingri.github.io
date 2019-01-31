@@ -32,14 +32,13 @@
 }
 
 #about-section {
-  padding-bottom: 1000px;
+  padding-bottom: 300px;
   padding-top: 50px;
   text-align: center;
-  background-color:#FFFAF0;
+  background-color:#F9FBFD;
   margin-top: -20px;
 }
 .about-text {
-
   width: 1000px;
   margin: 0 auto;
   display: table;
@@ -52,16 +51,19 @@
 
 .text-div {
   font-family: MontserratReg;
-  width: 500px;
   float: left;
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
 }
 
 .contactImages  {
-  clear:right;
-  display: block;
-  float: right;
+  font-family: MontserratReg;
+  font-size: 14px;
+  padding-top: 5px;
+  clear: right;
+  text-align: center;
+  justify-content: space-around;
+
 }
 
 .contactImageLI {
@@ -69,6 +71,7 @@
   display: inline-block;
   background-size: cover;
   vertical-align: middle;
+  margin-right: 30px;
   height:40px;
   width:40px;
 }
@@ -76,14 +79,15 @@
   background-repeat: no-repeat;
   display: inline-block;
   background-size: cover;
-    vertical-align: middle;
-  height:50px;
-  width:50px;
+  vertical-align: middle;
+  margin-right: 30px;
+  height:40px;
+  width:40px;
 }
 .contactImageML {
   background-repeat: no-repeat;
   display: inline-block;
-    vertical-align: middle;
+  vertical-align: middle;
   background-size: cover;
   height:40px;
   width:40px;
@@ -91,11 +95,31 @@
 
 
 .rightContainer{
-  text-align: right;
+  text-align:right;
+  width:400px;
+  float: right;
 }
 
 .imageme{
-  height: 40%;
-  width: 40%;
+  height: 100%;
+  width: 100%;
   float: right;
+}
+
+.profileSection{
+  font-family: MontserratBold;
+  padding-top: 43px;
+  margin: auto -42px 0;
+  width: 1000px;
+}
+
+.profileHeader{
+  color: #006400;
+  font-family: MontserratBold;
+  font-size: 16px;
+}
+
+ul li{
+  padding-right: 30px;
+  display: inline;
 }
