@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="projects.css">
   <link rel="stylesheet" href="experience.css">
   <link rel="stylesheet" href="abilities.css">
+  <link rel="stylesheet" href="contact.css">
   <title>Josh Dingri</title>
 
 
@@ -110,6 +111,11 @@
       scrollToAnchor('abilities-anchor');
     });
 
+    $("#contactlink").click(function(e) {
+      e.preventDefault();
+      scrollToAnchor('contact-anchor');
+    });
+
   });
 
 
@@ -120,6 +126,7 @@
     $("#projects").load("projects.html");
     $("#experience").load("experience.html");
     $("#abilities").load("abilities.html");
+    $("#contact").load("contact.html");
   });
 
   $(function () {
@@ -143,7 +150,7 @@
       <ul>
         <a href="#HOME" class= "nav-item"> <div class="name-text"> JOSH DINGRI </div> </a>
         <div class="topnav">
-          <a href="#CONTACT"class="nav-item">  <div class="nav-text"> CONTACT</div> </a>
+          <a id="contactlink" href="#">  <div class="nav-text"> CONTACT</div> </a>
           <a id="projectslink" href="#"> <div class="nav-text"> PROJECTS</div> </a>
           <a id="abilitieslink" href="#"> <div class="nav-text"> ABILITIES</div> </a>
           <a id="experiencelink" href="#"> <div class="nav-text"> EXPERIENCE</div> </a>
@@ -161,6 +168,7 @@
   <div id="experience"></div>
   <div id="abilities"></div>
   <div id="projects"></div>
+  <div id="contact"></div>
   <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratReg;
+  src: url(Fonts/Montserrat-Reg.ttf);
+}
+@font-face {
+  font-family: MontserratThin;
+  src: url(Fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+  font-family: typewriter;
+  src: url(Fonts/larabiefont-free.regular.ttf);
+}
+
+#contact-section {
+  padding-bottom: 300px;
+  padding-top: 50px;
+  text-align: center;
+  background-color:#F9FBFD;
+  margin-top: -20px;
+}
+.contact-text {
+  width: 1000px;
+  margin: 0 auto;
+  display: table;
+  font-family: MontserratReg;
+  font-size: 19px;
+}
+
+.text-div {
+  float: left;
+  text-align: left;
+}
+
+.contactDetails{
+  font-family: MontserratBold;
+  font-size: 18px;
+  padding-top: 43px;
+  padding-left: 20px;
+  margin: auto 0 0;
+  width: 1000px;
+  vertical-align: middle;
+}
+
+.ORDivider {
+  font-family: MontserratBold;
+  font-size: 24px;
+  margin-right: 25px;
+}
