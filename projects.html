@@ -5,6 +5,24 @@
   <title>Josh Dingri</title>
 </head>
 <body>
+
+<script>
+$(document).ready(function(){
+  $("#arrowright").click(function(){
+    
+    var initalLeftMargin = $( ".innerRow" ).css('margin-left').replace("px", "")*1;
+	  var newLeftMargin = (initalLeftMargin - 304); // extra 2 for border
+  	$( ".innerRow" ).animate({marginLeft: newLeftMargin}, 500);
+
+
+  });
+});
+
+</script>
+
+
+
+
 <div id="projects-section">
   <a name="projects-anchor"></a>
 
@@ -16,21 +34,33 @@
   <div class="section-text">
 
 <div class="row">
-  
-  <div class="img1">
-    <img class="bottom" src="images/vahlProj.png" />
-    <img class="top" src="images/vahlgif.gif" />
-  </div>
+  <img class="arrowleft" src="images/arrowleft.png" />
 
-  <div class="img2">
-      <a href="https://aria-agent.eu/use-cases/"> <img class="bottom" src="images/test2.jpg" />
-      <img class="top" src="images/test3.jpg" /></a>
-  </div>
+  <div class="innerRow">
 
-  <div class="img3">
+    <a href="https://aria-agent.eu/use-cases/"> 
+      <div id="img1">
+        <img class="bottom" src="images/vahlProj.png" />
+        <img class="top" src="images/test3.jpg" />
+      </div>
+    </a>
+
+    <div class="img2">
+        <img class="bottom" src="images/test2.jpg" >
+        <img class="top" src="images/test3.jpg" />
+    </div>
+  </div>
+  <img id="arrowright" src="images/arrowright.png" />
+
+  <!-- <div class="img3">
       <img class="bottom" src="images/test3.jpg" />
       <img class="top" src="images/test2.jpg" />
-  </div>
+  </div> -->
+</div>
+
+<div class="rowNum">
+<span class="pageNum1">1</span><span class="pageNum2">2</span>
+
 </div>
 </div>
 </div>

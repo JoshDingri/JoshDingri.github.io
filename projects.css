@@ -8,7 +8,7 @@
 }
 
 #projects-section {
-  padding-bottom: 500px;
+  padding-bottom: 170px;
   padding-top: 50px;
   text-align: center;
   background-color:#F9FBFD;
@@ -17,7 +17,6 @@
 
 .section-text {
     font-family: MontserratReg;
-    margin: auto;
     width: 1000px;
 }
 
@@ -26,32 +25,57 @@
 }
 
 .row{
-  margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+
 }
 
-.img1 {
-  flex: 33.33%;
+.innerRow{
+  display: flex;
+  width:100%
 }
-.img1 img.top {
+
+.rowNum{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: MontserratReg;
+  font-size: 40px;
+  padding-top: 60px;
+}
+
+.pageNum1 {
+  padding-right: 50px;
+}
+
+
+.arrowleft{
+  width: 70px;
+}
+#arrowright{
+  width: 70px;
+}
+
+#img1 {
+  margin-right: 70px;
+}
+#img1 img.top {
   position: relative;
 }
-.img1 img {
+#img1 img {
   position: absolute;
-  height:270px;
-  width:320px;
+  height:310px;
+  width:390px;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
 
-.img1 img.top:hover {
+#img1 img.top:hover {
   opacity:0.1;
-}
-
-.img2 {
-  flex: 33.33%;
 }
 
 .img2 img.top {
@@ -59,8 +83,8 @@
 }
 .img2 img {
   position:absolute;
-  height:270px;
-  width:320px;
+  height:310px;
+  width:390px;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
@@ -70,7 +94,7 @@
 .img2 img.top:hover {
   opacity:0;
 }
-
+/* 
 .img3 {
   flex: 33.33%;
 
@@ -92,4 +116,4 @@
 
 .img3 img.top:hover {
   opacity:0;
-}
+} */
