@@ -8,12 +8,20 @@
 
 <script>
 $(document).ready(function(){
+  var i = 1;
   $("#arrowright").click(function(){
-    
+    i++;
     var initalLeftMargin = $( ".innerRow" ).css('margin-left').replace("px", "")*1;
-	  var newLeftMargin = (initalLeftMargin - 304); // extra 2 for border
-  	$( ".innerRow" ).animate({marginLeft: newLeftMargin}, 500);
+	  var newLeftMargin = (initalLeftMargin - 1840); // extra 2 for border
+  	$( ".innerRow" ).animate({marginLeft: newLeftMargin}, 700);
 
+  });
+
+  $("#arrowleft").click(function(){
+    i++;
+    var initalRightMargin = $( ".innerRow" ).css('margin-right').replace("px", "")*1;
+	  var newRightMargin = (initalRightMargin - 1840); // extra 2 for border
+  	$( ".innerRow" ).animate({marginRight: newRightMargin}, 700);
 
   });
 });
@@ -32,35 +40,58 @@ $(document).ready(function(){
 <br>
   <hr class="sectionDivider">
   <div class="section-text">
+  <div class="section-text-projects">
 
 <div class="row">
-  <img class="arrowleft" src="images/arrowleft.png" />
+  <img id="arrowleft" src="images/arrowleft.png" />
 
   <div class="innerRow">
 
+
+    
+    <div class="img4">
+      <div class="bottomDiv">
+        <img class="bottom" src="images/test3.jpg" />
+      </div>
+      <img class="top" src="images/test2.jpg" />
+  </div>
+
     <a href="https://aria-agent.eu/use-cases/"> 
-      <div id="img1">
-        <img class="bottom" src="images/vahlProj.png" />
+      <div class="img1">
+        <div class="bottomDiv">
+          <img class="bottom" src="images/vahlProj.png" />
+        </div>
+
         <img class="top" src="images/test3.jpg" />
       </div>
     </a>
 
     <div class="img2">
-        <img class="bottom" src="images/test2.jpg" >
+        <div class="bottomDiv">
+          <img class="bottom" src="images/test2.jpg" >
+        </div>
         <img class="top" src="images/test3.jpg" />
     </div>
+
+    <div class="img3">
+      <div class="bottomDiv">
+        <img class="bottom" src="images/test3.jpg" />
+      </div>
+      <img class="top" src="images/test2.jpg" />
   </div>
+
+  </div>
+
+
   <img id="arrowright" src="images/arrowright.png" />
 
-  <!-- <div class="img3">
-      <img class="bottom" src="images/test3.jpg" />
-      <img class="top" src="images/test2.jpg" />
-  </div> -->
+
 </div>
 
 <div class="rowNum">
 <span class="pageNum1">1</span><span class="pageNum2">2</span>
 
+</div>
 </div>
 </div>
 </div>
