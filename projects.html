@@ -8,20 +8,26 @@
 
 <script>
 $(document).ready(function(){
-  var i = 1;
+  var pageNumber = 1;
+  
   $("#arrowright").click(function(){
-    i++;
-    var initalLeftMargin = $( ".innerRow" ).css('margin-left').replace("px", "")*1;
-	  var newLeftMargin = (initalLeftMargin - 1840); // extra 2 for border
-  	$( ".innerRow" ).animate({marginLeft: newLeftMargin}, 700);
+    if(pageNumber < 2){
+      var initalLeftMargin = $( ".innerRow" ).css('margin-left').replace("px", "")*1;
+      var newLeftMargin = (initalLeftMargin - 1840); // extra 2 for border
+      $( ".innerRow" ).animate({marginLeft: newLeftMargin}, 700);
+      pageNumber++;
+    }
 
   });
 
   $("#arrowleft").click(function(){
-    i++;
-    var initalRightMargin = $( ".innerRow" ).css('margin-right').replace("px", "")*1;
-	  var newRightMargin = (initalRightMargin - 1840); // extra 2 for border
-  	$( ".innerRow" ).animate({marginRight: newRightMargin}, 700);
+    if(pageNumber > 1){
+      var initalRightMargin = $( ".innerRow" ).css('margin-right').replace("px", "")*1;
+      var newRightMargin = (initalRightMargin - 1840); // extra 2 for border
+      $( ".innerRow" ).animate({marginRight: newRightMargin}, 700);
+      pageNumber--;
+    }
+
 
   });
 });
@@ -44,6 +50,7 @@ $(document).ready(function(){
 
 <div class="row">
   <img id="arrowleft" src="images/arrowleft.png" />
+  <div class="innerRow2">
 
   <div class="innerRow">
 
@@ -82,7 +89,7 @@ $(document).ready(function(){
 
   </div>
 
-
+  </div>
   <img id="arrowright" src="images/arrowright.png" />
 
 
