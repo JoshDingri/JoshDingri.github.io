@@ -25,6 +25,8 @@ $(document).ready(function(){
       var initalRightMargin = $( ".innerRow" ).css('margin-right').replace("px", "")*1;
       var newRightMargin = (initalRightMargin - 1840); // extra 2 for border
       $( ".innerRow" ).animate({marginRight: newRightMargin}, 700);
+      $("."+pageNum+pageNumber).css("background-color","transparent");
+      
       pageNumber--;
     }
 

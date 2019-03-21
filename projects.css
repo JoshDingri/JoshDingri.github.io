@@ -67,7 +67,17 @@
 }
 
 .pageNum1 {
-  padding-right: 50px;
+  background: #5EA226;
+  border-radius: 0.7em;
+  -moz-border-radius: 0.7em;
+  -webkit-border-radius: 0.7em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.1em; 
 }
 
 #arrowleft{
