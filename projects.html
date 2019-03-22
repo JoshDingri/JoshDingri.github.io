@@ -15,7 +15,11 @@ $(document).ready(function(){
       var initalLeftMargin = $( ".innerRow" ).css('margin-left').replace("px", "")*1;
       var newLeftMargin = (initalLeftMargin - 1840); // extra 2 for border
       $( ".innerRow" ).animate({marginLeft: newLeftMargin}, 700);
+      $("."+"pageNum"+pageNumber).css("color","black");
+      $("."+"pageNum"+pageNumber).css("background-color","transparent");
       pageNumber++;
+      $("."+"pageNum"+pageNumber).css("color","white");
+      $("."+"pageNum"+pageNumber).css("background-color","green");
     }
 
   });
@@ -25,9 +29,11 @@ $(document).ready(function(){
       var initalRightMargin = $( ".innerRow" ).css('margin-right').replace("px", "")*1;
       var newRightMargin = (initalRightMargin - 1840); // extra 2 for border
       $( ".innerRow" ).animate({marginRight: newRightMargin}, 700);
-      $("."+pageNum+pageNumber).css("background-color","transparent");
-      
+      $("."+"pageNum"+pageNumber).css("color","black");
+      $("."+"pageNum"+pageNumber).css("background-color","transparent");
       pageNumber--;
+      $("."+"pageNum"+pageNumber).css("color","white");
+      $("."+"pageNum"+pageNumber).css("background-color","green");
     }
 
 
@@ -47,8 +53,8 @@ $(document).ready(function(){
   </header>
 <br>
   <hr class="sectionDivider">
-  <div class="section-text">
-  <div class="section-text-projects">
+
+  <div id="projects-section-text">
 
 <div class="row">
   <img id="arrowleft" src="images/arrowleft.png" />
@@ -71,7 +77,7 @@ $(document).ready(function(){
           <img class="bottom" src="images/vahlProj.png" />
         </div>
 
-        <img class="top" src="images/test3.jpg" />
+        <img class="top" src="images/vahlgif.gif" />
       </div>
     </a>
 
@@ -79,14 +85,14 @@ $(document).ready(function(){
         <div class="bottomDiv">
           <img class="bottom" src="images/test2.jpg" >
         </div>
-        <img class="top" src="images/test3.jpg" />
+        <img class="top" src="images/construction.jpg" />
     </div>
 
     <div class="img3">
       <div class="bottomDiv">
         <img class="bottom" src="images/test3.jpg" />
       </div>
-      <img class="top" src="images/test2.jpg" />
+      <img class="top" src="images/construction.jpg" />
   </div>
 
   </div>
@@ -100,7 +106,6 @@ $(document).ready(function(){
 <div class="rowNum">
 <span class="pageNum1">1</span><span class="pageNum2">2</span>
 
-</div>
 </div>
 </div>
 </div>
