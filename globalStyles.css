@@ -1,20 +1,20 @@
 @font-face {
     font-family: MontserratReg;
-    src: url(Fonts/Montserrat-Reg.ttf);
+    src: url(../Fonts/Montserrat-Reg.ttf);
   }
 
 @font-face {
     font-family: MontserratBold;
-    src: url(Fonts/Montserrat-Bold.ttf);
+    src: url(../Fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: MontserratThin;
-    src: url(Fonts/Montserrat-ExtraLight.ttf);
+    src: url(../Fonts/Montserrat-ExtraLight.ttf);
 }
 @font-face {
   font-family: typewriter;
-  src: url(Fonts/larabiefont-free.regular.ttf);
+  src: url(../Fonts/larabiefont-free.regular.ttf);
 }
   
 .section-text {
