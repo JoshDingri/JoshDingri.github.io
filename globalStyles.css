@@ -7,13 +7,16 @@
     font-family: MontserratBold;
     src: url(Fonts/Montserrat-Bold.ttf);
 }
+
 @font-face {
-    font-family: MontserratReg;
-    src: url(Fonts/Montserrat-Reg.ttf);
+    font-family: MontserratThin;
+    src: url(Fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+  font-family: typewriter;
+  src: url(Fonts/larabiefont-free.regular.ttf);
 }
   
-  
-
 .section-text {
     text-align: center;
     margin: 0 auto;

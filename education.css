@@ -1,15 +1,3 @@
-@font-face {
-  font-family: MontserratBold;
-  src: url(Fonts/Montserrat-Bold.ttf);
-}
-
-@font-face {
-  font-family: MontserratReg;
-  src: url(Fonts/Montserrat-Reg.ttf);
-}
-
-
-
 .education-section {
   padding-bottom: 320px;
   padding-top: 50px;

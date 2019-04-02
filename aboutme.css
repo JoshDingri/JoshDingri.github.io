@@ -1,21 +1,3 @@
-@font-face {
-  font-family: MontserratBold;
-  src: url(Fonts/Montserrat-Bold.ttf);
-}
-@font-face {
-  font-family: MontserratReg;
-  src: url(Fonts/Montserrat-Reg.ttf);
-}
-@font-face {
-  font-family: MontserratThin;
-  src: url(Fonts/Montserrat-ExtraLight.ttf);
-}
-@font-face {
-  font-family: typewriter;
-  src: url(Fonts/larabiefont-free.regular.ttf);
-}
-
-
 
 #about-section {
   padding-bottom: 300px;
@@ -24,7 +6,7 @@
   background-color:#F9FBFD;
   margin-top: -20px;
 }
-.about-text {
+#about-text {
   width: 1000px;
   margin: 0 auto;
   display: table;
@@ -39,7 +21,7 @@
   
 }
 
-.contactImages  {
+#contactImages  {
   font-family: MontserratReg;
   font-size: 14px;
   padding-top: 5px;
@@ -49,7 +31,7 @@
 
 }
 
-.contactImageLI {
+#contactImageLI {
   background-repeat: no-repeat;
   display: inline-block;
   background-size: cover;
@@ -57,7 +39,7 @@
   height:40px;
   width:40px;
 }
-.contactImageGH {
+#contactImageGH {
   background-repeat: no-repeat;
   display: inline-block;
   background-size: cover;
@@ -65,7 +47,7 @@
   height:40px;
   width:40px;
 }
-.contactImageML {
+#contactImageML {
   background-repeat: no-repeat;
   display: inline-block;
   vertical-align: middle;
@@ -75,19 +57,19 @@
 }
 
 
-.rightContainer{
+#rightContainer{
   text-align:right;
   width:400px;
   float: right;
 }
 
-.imageme{
+#imageme{
   height: 100%;
   width: 100%;
   float: right;
 }
 
-.profileSection{
+#profileSection{
   font-family: MontserratBold;
   padding-top: 43px;
   margin: auto -42px 0;

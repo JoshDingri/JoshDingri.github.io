@@ -1,9 +1,5 @@
-@font-face {
-  font-family: MontserratReg;
-  src: url(Fonts/Montserrat-Regular.ttf);
-}
 
-#bio{
+#bio {
   font-family: MontserratReg;
   font-size: 47px;
   font-weight: bold;
@@ -17,15 +13,16 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.welcome{
+
+#welcome {
   font-size: 45px;
 }
 
-.punc{
+.punc {
   color: yellow;
 }
 
-.tagline {
+#tagline {
   font-weight: lighter;
   font-size: 16px;
 }
