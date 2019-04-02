@@ -1,6 +1,8 @@
 @font-face {
     font-family: MontserratReg;
     src: url(Fonts/Montserrat-Reg.ttf) format('truetype');
+    src: url(Fonts/Montserrat-Reg.woff) format('woff');
+
   }
 
 @font-face {
