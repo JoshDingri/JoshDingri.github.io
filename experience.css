@@ -29,10 +29,6 @@
   font-family: MontserratReg;
 }
 
-.centreContainer {
-    position: relative;
-}
-
 .hl {
   border-left: 3px solid #1C3863;
   height: 590px;

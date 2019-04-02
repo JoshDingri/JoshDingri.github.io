@@ -1,4 +1,4 @@
-.education-section {
+#education-section {
   padding-bottom: 320px;
   padding-top: 50px;
   text-align: center;
@@ -28,11 +28,11 @@
   float:right;
 }
 
-.row2{
+#row2{
   padding-top: 300px;
 }
 
-.row3{
+#row3{
   padding-top: 240px;
 }
 
@@ -41,7 +41,7 @@
   width:560px;
 }
 
-.vl {
+#vl {
   border-left: 3px solid #1C3863;
   height: 690px;
   position: absolute;
@@ -51,12 +51,8 @@
   transform: translate(-50%, -50%);
 }
 
-.centreContainer {
-  opacity: 1;
-  position: relative;
-}
 
-.bookImage {
+#bookImage {
   height: 40px;
   width: 40px;
   left:36%;
@@ -65,7 +61,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.gradimage {
+#gradimage {
   left:36%;
   margin-top: -521px;
   margin-right: -50%;
@@ -74,7 +70,7 @@
   height: 40px;
   width: 40px;
 }
-.bookImage2 {
+#bookImage2 {
   left:36%;
   margin-top: -220px;
   margin-right: -50%;
