@@ -80,13 +80,11 @@
 
 #arrowleft{
   position: absolute;
-  overflow:visible;
-  padding-right: 1000px;
+  margin-right: 1000px;
   width: 70px;
 }
 #arrowright{
-  overflow:visible;
-  padding-left: 1000px;
+  margin-left: 1000px;
   position: absolute;
   width: 70px;
 }
