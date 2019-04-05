@@ -20,7 +20,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 80px;
-  overflow:visible;
 
 }
 
@@ -81,12 +80,10 @@
 
 #arrowleft{
   position: absolute;
-  overflow:visible;
   margin-right: 1000px;
   width: 70px;
 }
 #arrowright{
-  overflow:visible;
   margin-left: 1000px;
   position: absolute;
   width: 70px;
