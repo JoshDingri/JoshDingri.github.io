@@ -93,3 +93,8 @@
   width: 15px;
   height: 15px;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
