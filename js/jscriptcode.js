@@ -9,4 +9,4 @@ $(document).ready(function(){
           $("#aboutme").load("aboutme.html");
           $("#education").load("education.html");
         });
-}
+});
