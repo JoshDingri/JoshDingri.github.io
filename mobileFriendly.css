@@ -23,5 +23,12 @@
     #nametag{
         font-size: 36px;
     }
+    
+    
+    #about-text {
+      width: 500px;
+      margin: 0 auto;
+      display: table;
+    }
 
 }
