@@ -86,3 +86,9 @@ ul li{
   padding-right: 30px;
   display: inline;
 }
+#profileHeaderMobile{
+    display: none;
+}
+#profileHeaderDesktop{
+    display: block;
+}
