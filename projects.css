@@ -10,7 +10,7 @@
 #projects-section-text {
   text-align: center;
   margin: 0 auto;
-  width: 900px;
+  max-width: 900px;
   font-family: MontserratReg;
 }
 
