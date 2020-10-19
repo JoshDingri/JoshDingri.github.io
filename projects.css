@@ -80,11 +80,9 @@
 
 #arrowleft{
   position: relative;
-  right: 50px;
   width: 70px;
 }
 #arrowright{
-  left: 50px;
   position: relative;
   width: 70px;
 }
