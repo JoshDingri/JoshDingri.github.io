@@ -24,6 +24,7 @@
     margin: 0 auto;
     max-width: 1000px;
     font-family: MontserratReg;
+    
 }
 
 .section-header {
@@ -44,3 +45,6 @@
     opacity: 1;
     position: relative;
   }
+html, body {
+    margin: 0;  
+}

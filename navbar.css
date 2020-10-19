@@ -1,3 +1,4 @@
+
 .nav-text {
   display: inline-block;
   float: right;
@@ -30,7 +31,7 @@
 .fixedNav {
   position: fixed;
   top: 0;
-  width: 98.66%;
+  width: 100%;
   z-index: 1;
 }
 
