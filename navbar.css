@@ -1,5 +1,16 @@
 
-.nav-text {
+
+@media only screen and (min-width: 1000px) {
+    .name-text{
+      display: inline-block;
+      float:left;
+      font-family: MontserratBold;
+      padding: 14px 16px;
+      font-size: 34px;
+      color: white;
+      padding-top: 40px;
+    }
+    .nav-text {
   display: inline-block;
   float: right;
   font-family: MontserratReg;
@@ -9,15 +20,6 @@
   margin-right: 0;
 
 }
-
-.name-text{
-  display: inline-block;
-  float:left;
-  font-family: MontserratBold;
-  padding: 14px 16px;
-  font-size: 34px;
-  color: white;
-  padding-top: 40px;
 }
 
 .maindiv{

@@ -1,21 +1,21 @@
 @media only screen and (max-width: 1000px) {
     .nav-text {
-      display: inline-block;
-      float: right;
+    display: inline-block;
       font-family: MontserratReg;
-      font-size: 15px;
-      padding-top: 50px;
-      padding-right: 30px;
-      margin-right: 0;
+      font-size: 14px;
+      padding-top: 30px;
+      padding-right: 10px;
+    }
+    .topnav{
+        margin-left:-20px;
+        text-align: center;
     }
     .name-text{
-      display: inline-block;
-      float:left;
       font-family: MontserratBold;
+      text-align: center;
       padding: 14px 16px;
-      font-size: 20px;
+      font-size: 24px;
       color: white;
-      padding-top: 40px;
     }
     #welcome {
         font-size: 18px;
