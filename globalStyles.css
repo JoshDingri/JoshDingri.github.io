@@ -34,6 +34,10 @@
     position: relative;
     color: black;
 }
+#mobileNavBarIcon{
+    display: none;
+    visibility: hidden;
+}
 
 .sectionDivider {
     height: 12px;
