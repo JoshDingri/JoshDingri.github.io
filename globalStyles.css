@@ -39,6 +39,11 @@
     visibility: hidden;
 }
 
+.MobileNavLine{
+    display: none;
+    visibility: hidden; 
+}
+
 .sectionDivider {
     height: 12px;
     border: 0;
