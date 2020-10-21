@@ -134,8 +134,8 @@ $(document).scroll(function () {
     var $navtext = $(".nav-text");
     var $nametext = $(".name-text");
     if(window.matchMedia("(max-width: 1000px)").matches){
-        $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-        if($(this).scrollTop() >= $nav.height()){
+        $nav.toggleClass('scrolled', $(this).scrollTop() >= 40);
+        if($(this).scrollTop() >= 40){
             $navtext.addClass('mobileScrolled');
             $nametext.addClass('mobileScrolled');
             if($navtext.css('display') != 'block'){
