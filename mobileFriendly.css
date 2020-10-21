@@ -1,22 +1,21 @@
 @media only screen and (max-width: 1000px) {
-/*
     #about-section 
     {
-      padding-bottom: 300px;
+      padding-bottom: 50px;
       padding-top: 50px;
       text-align: center;
       background-color:#F9FBFD;
       margin-top: -20px;
       max-width: 1500px;
     }
-*/
     #profileSection{
       font-family: MontserratBold;
       padding-top: 0px;
+      padding-left: 3px;
+      padding-bottom: 20px;
       max-width: 1000px;
       font-size: 15px;
       text-align: left; 
-      margin: auto 0;
       
 
     }
