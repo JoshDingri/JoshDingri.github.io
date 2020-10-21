@@ -149,19 +149,6 @@ $(document).scroll(function () {
             $navtext.css('display', 'inline-block');
             $navtext.css('visibility', 'visible');
         }
-//        
-//        else
-//        {
-//            if($(this).scrollTop() >= $nav.height() && $navtext.css('display') != "block")
-//            {
-//                $navtext.css('visibility', 'hidden');
-//                $navtext.css('display', 'none');
-//            }
-//            
-//            $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-//            $navtext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-//            $nametext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-//        }
     }
   
     else
