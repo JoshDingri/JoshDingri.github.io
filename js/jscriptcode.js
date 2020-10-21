@@ -10,8 +10,27 @@ str3 = "<span id='welcome'>This website is under construction<span class='punc'>
   isTag = false;
   text = "";
   setTimeout(function() {type(i,isTag,text,str3);}, 1000);
+    
+    
 
 }
+  function displayNav() {
+      var x = document.getElementsByClassName("nav-text");
+      var y = document.getElementsByClassName("fixedNav");
+      for (var i = 0; i < x.length; i++ ) {
+        if (x[i].style.display === "none") {
+            console.log(y[0].clientHeight);
+            console.log("is" + $(this).scrollTop());
+            x[i].style.display = "block";
+            x[i].style.visibility = "visible";
+        } else {
+            x[i].style.display = "none";
+            x[i].style.visibility = "hidden";
+
+      }
+  }
+}
+
   function type(i,isTag,text,str2){
     text = str2.slice(0, ++i);
     if (text === str2) {
@@ -93,7 +112,7 @@ $("#contactlink").click(function(e) {
   e.preventDefault();
   scrollToAnchor('contact-anchor');
 });
-
+    
 });
 
 
@@ -109,12 +128,35 @@ $("#contact").load("contact.html");
 
 $(function () {
 $(document).scroll(function () {
-var $nav = $(".fixedNav");
-var $navtext = $(".nav-text");
-var $nametext = $(".name-text");
-$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-$navtext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-$nametext.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    var $nav = $(".fixedNav");
+    var $navtext = $(".nav-text");
+    var $nametext = $(".name-text");
+    if(window.matchMedia("(max-width: 1000px)").matches){
+        
+        if($(this).scrollTop() < 20 && $navtext.is(":hidden"))
+        {
+            $navtext.css('display', 'inline-block');
+            $navtext.css('visibility', 'visible');
+        }
+        else
+        {
+            if($(this).scrollTop() >= $nav.height())
+            {
+                $navtext.css('visibility', 'hidden');
+                $navtext.css('display', 'none');
+            }
+            $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            $navtext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            $nametext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            console.log($navtext.is(":hidden"));
+        }
+    }
+    else
+    {
+            $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            $navtext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            $nametext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+    }
 });
 });
 

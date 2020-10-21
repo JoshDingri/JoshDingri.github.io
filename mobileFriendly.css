@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1000px) {
     .nav-text {
-    display: inline-block;
+      display: inline-block;
+      visibility:visible;
       font-family: MontserratReg;
       font-size: 16px;
       padding-top: 30px;
@@ -11,11 +12,12 @@
         text-align: center;
     }
     #mobileNavBarIcon{
+        background-size: cover;
         display: none;
         visibility: hidden;
         position: relative;
-        left:10px;
-        margin-bottom: -10px;
+        left:16px;
+        margin-bottom: -9px;
         width: 42px;
         height: 42px;
     }
@@ -42,14 +44,16 @@
     .nav-text.scrolled {
       font-size: 14px;
       margin-right: 30px;
+      margin-bottom: 25px;
       display: none;
       visibility: hidden;
     }
-
+    
     .name-text.scrolled {
       margin-left: -30px;
       font-size: 32px;
       margin-top: 10px;
+      margin-bottom: 20px;
     }
     
     #welcome {
