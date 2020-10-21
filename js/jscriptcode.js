@@ -1,4 +1,6 @@
 window.onload = function(){
+  dropdownActive = false;
+
   str2 = "SALUT<span class='punc'>!</span>";
   str = "<span id='nametag'>I AM JOSH DINGRI</span><span class='punc'>.</span></br> <span id='tagline'> Web Developer <span class='punc'>-</span> Software Engineer </span>";
 str3 = "<span id='welcome'>This website is under construction<span class='punc'>!</span></span>";
@@ -19,12 +21,12 @@ str3 = "<span id='welcome'>This website is under construction<span class='punc'>
       var y = document.getElementsByClassName("fixedNav");
       for (var i = 0; i < x.length; i++ ) {
         if (x[i].style.display === "none") {
-            console.log(y[0].clientHeight);
-            console.log("is" + $(this).scrollTop());
             x[i].style.display = "block";
             x[i].style.visibility = "visible";
+            dropdownActive = true;
         } else {
             x[i].style.display = "none";
+            dropdownActive = false;
             x[i].style.visibility = "hidden";
 
       }
@@ -132,25 +134,36 @@ $(document).scroll(function () {
     var $navtext = $(".nav-text");
     var $nametext = $(".name-text");
     if(window.matchMedia("(max-width: 1000px)").matches){
-        
-        if($(this).scrollTop() < 20 && $navtext.is(":hidden"))
-        {
+        $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+        if($(this).scrollTop() >= $nav.height()){
+            $navtext.addClass('mobileScrolled');
+            $nametext.addClass('mobileScrolled');
+            if($navtext.css('display') != 'block'){
+                $navtext.css('display', 'none');
+                $navtext.css('visibility', 'hidden');
+            }
+        }
+        else{
+            $navtext.removeClass('mobileScrolled');
+            $nametext.removeClass('mobileScrolled');
             $navtext.css('display', 'inline-block');
             $navtext.css('visibility', 'visible');
         }
-        else
-        {
-            if($(this).scrollTop() >= $nav.height())
-            {
-                $navtext.css('visibility', 'hidden');
-                $navtext.css('display', 'none');
-            }
-            $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-            $navtext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-            $nametext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
-            console.log($navtext.is(":hidden"));
-        }
+//        
+//        else
+//        {
+//            if($(this).scrollTop() >= $nav.height() && $navtext.css('display') != "block")
+//            {
+//                $navtext.css('visibility', 'hidden');
+//                $navtext.css('display', 'none');
+//            }
+//            
+//            $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+//            $navtext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+//            $nametext.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+//        }
     }
+  
     else
     {
             $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());

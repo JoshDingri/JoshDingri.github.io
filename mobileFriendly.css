@@ -21,7 +21,7 @@
         width: 42px;
         height: 42px;
     }
-    .name-text.scrolled #mobileNavBarIcon{
+    .name-text.mobileScrolled #mobileNavBarIcon{
         display:inline-block;
         visibility:visible;
     }
@@ -41,15 +41,13 @@
       color: white;
     }
     
-    .nav-text.scrolled {
+    .nav-text.mobileScrolled {
       font-size: 14px;
       margin-right: 30px;
       margin-bottom: 25px;
-      display: none;
-      visibility: hidden;
     }
     
-    .name-text.scrolled {
+    .name-text.mobileScrolled {
       margin-left: -30px;
       font-size: 32px;
       margin-top: 10px;
