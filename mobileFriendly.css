@@ -43,14 +43,12 @@
       left:113%;
       margin-top: 422px;
       margin-right: -50%;
-      position: absolute;
       transform: translate(-50%, -50%);
     }
     #gradimage {
       left:113%;
       margin-top: -584px;
       margin-right: -50%;
-      position: absolute;
       transform: translate(-50%, -50%);
       height: 50px;
       width: 50px;
@@ -59,7 +57,6 @@
       left:113%;
       margin-top: -44px;
       margin-right: -50%;
-      position: absolute;
       transform: translate(-50%, -50%);
       height: 50px;
       width: 50px;
