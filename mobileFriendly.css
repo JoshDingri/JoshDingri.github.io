@@ -9,18 +9,26 @@
       padding-top: 0px;
 }
     }
-    .colgradeheader{
-      font-family: MontserratReg;
-      font-size: 14px;
-      color: green;
+    .colgradeheaderMob{
+      visibility: visible;
+      display: block;
     }
-    .col2Header{
+    .col2HeaderMob{
       font-family: MontserratReg;
       font-size: 7px;
       color: #3d8ff5;
-
+      visibility: visible;
+      display: block;
+    }
+    .colgradeheader{
+      visibility: hidden;
+      display: none;
     }
 
+    .col2Header{
+      visibility: hidden;
+      display: none;
+    }
     #bookImage {
       height: 50px;
       width: 50px;

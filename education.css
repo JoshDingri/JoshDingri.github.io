@@ -20,7 +20,24 @@
   font-family: MontserratBold;
   font-size: 8px;
 }
-
+.colgradeheader{
+  font-family: MontserratBold;
+  font-size: 8px;
+}
+.colgradeheaderMob{
+  font-family: MontserratReg;
+  font-size: 14px;
+  color: green;
+  visibility: hidden;
+  display: none;
+}
+.col2HeaderMob{
+  font-family: MontserratReg;
+  font-size: 7px;
+  color: #3d8ff5;
+  visibility: hidden;
+  display: none;
+}
 .col1{
   margin: 0 auto;
   width: 450px;
