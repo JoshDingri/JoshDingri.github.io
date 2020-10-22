@@ -65,6 +65,7 @@
     .centreContainer{
         margin: 0 auto;
         margin-top: -120px;
+        position: relative;
         width: 350px;
         text-align: left;
         -webkit-transform:scale(0.7);
