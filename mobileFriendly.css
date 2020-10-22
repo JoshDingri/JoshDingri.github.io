@@ -25,14 +25,14 @@
       height: 50px;
       width: 50px;
       left:113%;
-      margin-top: 468px;
+      margin-top: 422px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
     }
     #gradimage {
       left:113%;
-      margin-top: -544px;
+      margin-top: -584px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -41,7 +41,7 @@
     }
     #bookImage2 {
       left:113%;
-      margin-top: -4px;
+      margin-top: -44px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -55,7 +55,7 @@
     }
     #vl {
       border-left: 3px solid #1C3863;
-      height: 1290px;
+      height: 1390px;
       position: absolute;
       left:113%;
       margin-right: -50%;
@@ -64,7 +64,7 @@
     }
     .centreContainer{
         margin: 0 auto;
-        margin-top: -150px;
+        margin-top: -120px;
         width: 350px;
         text-align: left;
         -webkit-transform:scale(0.7);
