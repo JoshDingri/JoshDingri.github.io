@@ -68,16 +68,16 @@
     }
     #vl {
       border-left: 3px solid #1C3863;
-      height: 1390px;
+      height: 1490px;
       position: absolute;
       left:113%;
       margin-right: -50%;
-      margin-top: 100px;
+      margin-top: 139px;
       transform: translate(-50%, -50%);
     }
     .centreContainer{
         margin: 0 auto;
-        margin-top: -40px;
+        margin-top: -58px;
         position: relative;
         width: 350px;
         text-align: left;
