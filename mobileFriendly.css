@@ -1,4 +1,12 @@
 @media only screen and (max-width: 1000px) {
+    #desktopview{
+        display:none;
+    }
+    #mobileview{
+        display: inline;
+    }
+    
+    
     .mobilespacing1{
         padding-top: 10px;
     }
@@ -6,8 +14,8 @@
         padding-top: 25px;
     }
     .educationText{
+                display: block;
       padding-top: 0px;
-}
     }
     .colgradeheaderMob{
       visibility: visible;
@@ -67,12 +75,12 @@
       position: absolute;
       left:113%;
       margin-right: -50%;
-      margin-top: 80px;
+      margin-top: 100px;
       transform: translate(-50%, -50%);
     }
     .centreContainer{
         margin: 0 auto;
-        margin-top: -120px;
+        margin-top: -58px;
         position: relative;
         width: 350px;
         text-align: left;
@@ -202,6 +210,13 @@
     }
     #profileHeaderDesktop{
         display: none;
+    }
+    #row2{
+      padding-top: 240px;
+    }
+
+    #row3{
+      padding-top: 240px;
     }
     
 }
