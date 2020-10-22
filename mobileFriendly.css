@@ -1,4 +1,99 @@
 @media only screen and (max-width: 1000px) {
+    .mobilespacing1{
+        padding-top: 10px;
+    }
+    .mobilespacing2{
+        padding-top: 25px;
+    }
+    .educationText{
+      padding-top: 0px;
+}
+    }
+    .colgradeheader{
+      font-family: MontserratReg;
+      font-size: 14px;
+      color: green;
+    }
+    .col2Header{
+      font-family: MontserratReg;
+      font-size: 7px;
+      color: #3d8ff5;
+
+    }
+
+    #bookImage {
+      height: 40px;
+      width: 40px;
+      left:113%;
+      margin-top: 418px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+    #gradimage {
+      left:113%;
+      margin-top: -535px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      height: 40px;
+      width: 40px;
+    }
+    #bookImage2 {
+      left:113%;
+      margin-top: -20px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      height: 40px;
+      width: 40px;
+    }
+
+    .mobileEdu-text{
+        max-width: 1000px;
+        height: 1000px;
+    }
+    #vl {
+      border-left: 3px solid #1C3863;
+      height: 1290px;
+      position: absolute;
+      left:113%;
+      margin-right: -50%;
+      margin-top: 80px;
+      transform: translate(-50%, -50%);
+    }
+    .centreContainer{
+        margin: 0 auto;
+        margin-top: -150px;
+        width: 350px;
+        text-align: left;
+        -webkit-transform:scale(0.7);
+        -moz-transform:scale(0.7);
+        -ms-transform:scale(0.7);
+        transform:scale(0.7);
+    }
+    .col1{
+        margin: 0 auto;
+        width: 350px;
+        float:left;
+        text-align: left;
+        margin-top: -25px;
+        -webkit-transform:scale(0.7);
+        -moz-transform:scale(0.7);
+        -ms-transform:scale(0.7);
+        transform:scale(0.7);
+    }
+    .col2{
+        margin: 0 auto;
+        margin-top: -65px;
+        width: 350px;
+        text-align: left;
+        float:left;
+        -webkit-transform:scale(0.7);
+        -moz-transform:scale(0.7);
+        -ms-transform:scale(0.7);
+        transform:scale(0.7);
+    }
     #about-section 
     {
       padding-bottom: 50px;
