@@ -1,3 +1,10 @@
+#desktopAbilities{
+    display:inline;
+}
+#desktopAbilities{
+    display: none;
+}
+
 .skillText {
   font-family: "typewriter";
   font-weight: normal;

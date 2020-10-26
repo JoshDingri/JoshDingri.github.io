@@ -1,5 +1,47 @@
 @media only screen and (max-width: 1000px) {
+    #desktopAbilities{
+        display:none;
+    }
+    #mobileAbilities{
+      display: inline-block;
+    }
     
+    .container {
+      padding-top: 50px;
+      width: 100%;
+      text-align: center;
+      margin-top: -20px;
+      display: inline-block;
+
+    }
+
+    .skillHeading {
+      font-size: 22px;
+      font-weight: bold;
+      width: 200px;
+    }
+
+    .skillHeading2 {
+      font-size: 22px;
+      font-weight: bold;
+      width: 170px;
+    }
+
+    .skillHeading3 {
+        padding-top: 50px;
+      font-size: 22px;
+      font-weight: bold;
+      width: 100%;
+      margin: auto 0;
+      float: none;
+    }
+    .skillText {
+      font-family: "typewriter";
+      font-weight: normal;
+      padding-top: 10px;
+      font-size: 15px;
+    }
+
     .hl {
       border-left: 3px solid #1C3863;
       height: 1290px;
