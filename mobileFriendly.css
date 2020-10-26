@@ -1,11 +1,90 @@
 @media only screen and (max-width: 1000px) {
+    
+    .hl {
+      border-left: 3px solid #1C3863;
+      height: 1290px;
+      position: absolute;
+      left:-13%;
+      margin-right: -50%;
+      margin-top: 140px;
+      transform: translate(-50%, -50%);
+    }
+
+    .timelineCircle1 {
+      left:-13%;
+      margin-top: -490px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 40px;
+      height: 40px;
+    }
+
+    .timelineCircle2 {
+      left:-13%;
+      margin-top: -220px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 40px;
+      height: 40px;
+    }
+    .timelineCircle3 {
+      left:-13%;
+      margin-top: 20px;
+      margin-right: -50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 40px;
+      height: 40px;
+    }
+    .col1ExperienceMobile{
+      width: 350px;
+      float:right;
+      text-align: left;
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      transform:scale(0.8);
+    }
+    .col2ExperienceMobile{
+      text-align: left;
+      width: 350px;
+      float:right;
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      transform:scale(0.8);
+    }
+    #desktopExperience{
+        display:none;
+    }
+    #mobileExperience{
+        display: inline;
+    }
     #desktopview{
         display:none;
     }
     #mobileview{
         display: inline;
     }
+    
+    .experienceMob-section-text {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1000px;
+        height: 750px;
+        font-family: MontserratReg;
+    
+    }
     #education-section {
+      padding-bottom: 20px;
+      padding-top: 50px;
+      text-align: center;
+      background-color: #FFFAF0;
+      margin-top: -20px;
+    }
+    #experience-section {
       padding-bottom: 90px;
       padding-top: 50px;
       text-align: center;
@@ -20,7 +99,6 @@
         padding-top: 25px;
     }
     .educationText{
-                display: block;
       padding-top: 0px;
     }
     .colgradeheaderMob{
@@ -104,7 +182,6 @@
         transform:scale(0.8);
     }
     .col2{
-        margin: 0 auto;
         margin-top: -45px;
         width: 350px;
         text-align: left;
