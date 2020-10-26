@@ -1,3 +1,10 @@
+#desktopProjects{
+    display:inline;
+}
+#mobileProjects{
+    display: none;
+}
+
 #projects-section {
   padding-bottom: 230px;
   padding-top: 140px;
