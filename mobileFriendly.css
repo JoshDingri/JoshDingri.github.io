@@ -171,7 +171,7 @@
 
     .timelineCircle1 {
       left:-13%;
-      margin-top: -490px;
+      margin-top: -502px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -181,7 +181,7 @@
 
     .timelineCircle2 {
       left:-13%;
-      margin-top: -220px;
+      margin-top: -105px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -190,7 +190,7 @@
     }
     .timelineCircle3 {
       left:-13%;
-      margin-top: 20px;
+      margin-top: 390px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
