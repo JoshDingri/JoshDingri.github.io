@@ -22,7 +22,7 @@
 
     #projects-section-text {
       text-align: center;
-      margin: 0px 25px 0px 25px;
+      margin: 0px 15px 0px 15px;
       max-width: 1000px;
       font-family: MontserratReg;
     }
@@ -80,6 +80,7 @@
     }
     
     .mobProjText{
+        text-align: left;
         padding-top: 20px;
         font-size: 10px;
     }
