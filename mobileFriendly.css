@@ -1,4 +1,10 @@
 @media only screen and (max-width: 1000px) {
+    #desktopContact{
+        display:none;
+    }
+    #mobileContact{
+        display: inline;
+    }
     #desktopProjects{
         display:none;
     }
@@ -11,7 +17,33 @@
     #mobileAbilities{
       display: inline-block;
     }
-    
+    #contact-section{
+        height: 200px;
+    }
+    #contact-text {
+      padding-top: 100px;
+      max-width: 1000px;
+      display: table;
+      font-family: MontserratReg;
+      font-size: 16px;
+    }
+    .MobInfo{
+        margin-bottom: 5px;
+    }
+    .MobprofileHeader{
+      float: left;
+      color: #006400;
+      font-family: MontserratBold;
+      font-size: 13px; 
+    }
+    #contactDetails{
+      padding-top: 10px;
+      padding-left: 0px;
+      float: left;
+      font-family: MontserratBold;
+      font-size: 13px;
+      max-width: 1000px;
+    }
     #projects-section {
       height: 1000px;
       padding-bottom: 230px;

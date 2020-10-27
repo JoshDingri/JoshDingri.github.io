@@ -1,3 +1,10 @@
+#desktopContact{
+    display:inline;
+}
+#mobileContact{
+    display: none;
+}
+
 #contact-section {
 /*  max-width: 1000px;  */
   padding-bottom: 300px;
