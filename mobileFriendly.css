@@ -27,10 +27,10 @@
       font-family: MontserratReg;
     }
     .keySkills{
-        font-family: MontserratReg;
+        font-family: Montserrat;
         color: #0000d8;
         text-align: left;
-        font-size: 14px;
+        font-size: 13px;
         padding-bottom: 4px;
     }
 
@@ -58,6 +58,10 @@
     }
 
     .caption {
+      font-family: Montserrat;
+        color: #5E9516;
+        margin-top: 10px;
+        margin-bottom: 3px;
         font-size: 19px;
         display: block;
         text-align: left;
