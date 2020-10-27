@@ -29,60 +29,60 @@
     .keySkills{
         font-family: MontserratReg;
         color: #0000d8;
-        font-size: 11px;
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 4px;
     }
 
     .Projectrow2{
         display: inline-block;    
-        padding-top: 40px;
+        padding-bottom: 40px;
     }
     
         
     div.mobimg1{
-        float: left;
         vertical-align: top;
         display: inline-block;
-        text-align: center;
-        width: 150px;
+        text-align: left;
+        width: 300px;
         margin-right: 5px;
 
     }
     
     div.mobimg2{
-        float: right;
         vertical-align: top;
         display: inline-block;
-        text-align: center;
-        width: 150px;
+        text-align: left;
+        width: 300px;
         margin-left: 5px;
     }
 
     .caption {
-        font-size: 13px;
+        font-size: 19px;
         display: block;
+        text-align: left;
     }
     
     .disspic2{
-      width: 150px;
+      width: 300px;
       height: auto;
       border-radius: 10px;
     }
     .vahlpic{
-      width: 150px;
+      width: 300px;
       height: auto;
       border-radius: 10px;
     }
     
     .disspic{
-      width: 150px;
+      width: 300px;
       height: auto;
       border-radius: 10px;
     }
     
     .mobProjText{
         text-align: left;
-        padding-top: 20px;
-        font-size: 10px;
+        font-size: 13px;
     }
 
 
