@@ -22,38 +22,69 @@
 
     #projects-section-text {
       text-align: center;
-      margin: 0 auto;
+      margin: 0px 25px 0px 25px;
       max-width: 1000px;
       font-family: MontserratReg;
     }
-    .mobimg1{
-        text-align: block;
-        font-size: 20px;
+    .keySkills{
+        font-family: MontserratReg;
+        color: #0000d8;
+        font-size: 11px;
     }
-    .Projectrow{
+
+    .Projectrow2{
         display: inline-block;    
         padding-top: 40px;
     }
+    
+        
+    div.mobimg1{
+        float: left;
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-right: 5px;
 
-    .mobProjText{
-        padding-top: 30px;
-        font-size: 10px;
     }
-    .vahlpic{
-      margin-left: 25px;
-      float: left;
-      width: 45%;
+    
+    div.mobimg2{
+        float: right;
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-left: 5px;
+    }
+
+    .caption {
+        font-size: 13px;
+        display: block;
+    }
+    
+    .disspic2{
+      width: 150px;
       height: auto;
       border-radius: 10px;
     }
-    .disspic{
-      margin-right: 25px;
-      float: right;
-      width: 45%;
+    .vahlpic{
+      width: 150px;
       height: auto;
       border-radius: 10px;
     }
     
+    .disspic{
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .mobProjText{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+
     .container {
       padding-top: 50px;
       width: 100%;
