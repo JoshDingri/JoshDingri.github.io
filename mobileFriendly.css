@@ -380,7 +380,9 @@
         font-size: 30px;
         font-weight: bold;
         position: relative;
-        color: black;
+        color: #1a9c95;
+        border: 2px ridge #1a9c95;
+        padding: 4px;
     }
     .nav-text {
       display: inline-block;
