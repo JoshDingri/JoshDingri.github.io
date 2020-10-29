@@ -132,31 +132,59 @@
 
     }
 
+    .headingRow{
+        display: block;
+    }
     .skillHeading {
-      font-size: 22px;
+      padding-top: 50px;
+      font-size: 24px;
       font-weight: bold;
-      width: 200px;
+      width: 100%;
     }
 
     .skillHeading2 {
-      font-size: 22px;
+      padding-top: 50px;
+      font-size: 24px;
       font-weight: bold;
-      width: 170px;
+      width: 100%;
     }
 
     .skillHeading3 {
-        padding-top: 50px;
+      font-size: 24px;
+      font-weight: bold;
+      width: 100%;
+    }
+    
+    .skillHeadingmobSoftware {
+      font-size: 24px;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .skillHeading2mobSoftware {
+      padding-top: 50px;
+      font-size: 24px;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .skillHeading3mobSoftware {
+      padding-top: 50px;
+      font-size: 24px;
+      font-weight: bold;
+      width: 100%;
+    }
+    
+    .skillHeading3mobSoftware {
       font-size: 22px;
       font-weight: bold;
       width: 100%;
-      margin: auto 0;
-      float: none;
     }
     .skillText {
       font-family: "typewriter";
       font-weight: normal;
       padding-top: 10px;
-      font-size: 15px;
+      font-size: 20px;
     }
 
     .hl {
