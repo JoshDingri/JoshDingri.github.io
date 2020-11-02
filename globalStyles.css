@@ -39,6 +39,8 @@
     font-weight: bold;
     position: relative;
     color: #008000;
+    border: 1.8px solid #1a9c95;
+    padding: 4px;
 }
 #mobileNavBarIcon{
     display: none;
