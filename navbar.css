@@ -12,7 +12,6 @@
     }
     .nav-text {
       display: inline-block;
-      float: right;
       font-family: MontserratReg;
       font-size: 20px;
       padding-top: 50px;
@@ -66,6 +65,9 @@
   transition: padding-top .7s, font-size .7s, margin-left .7s;
 }
 
+.topnav{
+    float: right;
+}
 
 .topnav .nav-text{
   color:rgba(255,255,255,1);

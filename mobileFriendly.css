@@ -421,6 +421,7 @@
       padding-right: 16px;
     }
     .topnav{
+        float: none;
         margin-left:-20px;
         text-align: center;
     }
