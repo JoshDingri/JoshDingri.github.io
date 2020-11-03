@@ -355,6 +355,9 @@
       margin-top: 820px;
       transform: translate(-50%, -50%);
     }
+    .absoluteTimelinePos{
+        position: relative;
+    }
     .centreContainer{
         margin: 0 auto;
         margin-top: -58px;
