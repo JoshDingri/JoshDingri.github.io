@@ -1,6 +1,6 @@
 window.onload = function(){
   dropdownActive = false;
-
+  AOS.init();
   str2 = "SALUT<span class='punc'>!</span>";
   str = "<span id='nametag'>I AM JOSH DINGRI</span><span class='punc'>.</span></br> <span id='tagline'> Web Developer <span class='punc'>-</span> Software Engineer </span>";
 str3 = "<span id='welcome'>This website is under construction<span class='punc'>!</span></span>";
