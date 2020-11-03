@@ -193,13 +193,14 @@
       position: absolute;
       left:-13%;
       margin-right: -50%;
-      margin-top: 140px;
+      margin-top: 800px;
       transform: translate(-50%, -50%);
     }
 
+
     .timelineCircle1 {
       left:-13%;
-      margin-top: -502px;
+      margin-top: 150px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -209,7 +210,7 @@
 
     .timelineCircle2 {
       left:-13%;
-      margin-top: -105px;
+      margin-top: 600px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
@@ -218,22 +219,14 @@
     }
     .timelineCircle3 {
       left:-13%;
-      margin-top: 390px;
+      margin-top: 1120px;
       margin-right: -50%;
       position: absolute;
       transform: translate(-50%, -50%);
       width: 40px;
       height: 40px;
     }
-    .col1ExperienceMobile{
-      width: 350px;
-      float:right;
-      text-align: left;
-      -webkit-transform:scale(0.8);
-      -moz-transform:scale(0.8);
-      -ms-transform:scale(0.8);
-      transform:scale(0.8);
-    }
+
     .col2ExperienceMobile{
       text-align: left;
       width: 350px;
@@ -242,6 +235,16 @@
       -moz-transform:scale(0.8);
       -ms-transform:scale(0.8);
       transform:scale(0.8);
+    }
+
+    .mobRightContainer{
+        width: 350px;
+        float:right;
+    }
+    .mobLeftContainer{
+        padding-top: 100px;
+        width: 350px;
+        float:left;
     }
     #desktopExperience{
         display:none;
@@ -312,13 +315,13 @@
       height: 50px;
       width: 50px;
       left:113%;
-      margin-top: 495px;
+      margin-top: 1175px;
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
     #gradimage {
       left:113%;
-      margin-top: -584px;
+      margin-top: 150px;
       margin-right: -50%;
       transform: translate(-50%, -50%);
       height: 50px;
@@ -326,7 +329,7 @@
     }
     #bookImage2 {
       left:113%;
-      margin-top: -4px;
+      margin-top: 700px;
       margin-right: -50%;
       transform: translate(-50%, -50%);
       height: 50px;
@@ -339,11 +342,11 @@
     }
     #vl {
       border-left: 3px solid #1C3863;
-      height: 1490px;
+      height: 1400px;
       position: absolute;
       left:113%;
       margin-right: -50%;
-      margin-top: 139px;
+      margin-top: 820px;
       transform: translate(-50%, -50%);
     }
     .centreContainer{
