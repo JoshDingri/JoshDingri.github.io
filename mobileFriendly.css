@@ -257,6 +257,7 @@
         display:none;
     }
     #mobileview{
+        position: relative;
         display: inline;
     }
     
@@ -339,7 +340,7 @@
 
     .mobileEdu-text{
         max-width: 1000px;
-        height: 1000px;
+        height: 1200px;
     }
     .abilities-section-text{
         max-width: 1000px;
