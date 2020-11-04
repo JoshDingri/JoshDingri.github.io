@@ -257,7 +257,6 @@
         display:none;
     }
     #mobileview{
-        position: relative;
         display: inline;
     }
     
@@ -314,6 +313,7 @@
       display: none;
     }
     #bookImage {
+      position: fixed;
       height: 50px;
       width: 50px;
       left:113%;
@@ -322,6 +322,7 @@
       transform: translate(-50%, -50%);
     }
     #gradimage {
+      position: fixed;
       left:113%;
       margin-top: 150px;
       margin-right: -50%;
@@ -330,6 +331,7 @@
       width: 50px;
     }
     #bookImage2 {
+      position: fixed;
       left:113%;
       margin-top: 700px;
       margin-right: -50%;
