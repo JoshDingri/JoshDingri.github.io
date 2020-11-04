@@ -356,7 +356,7 @@
       position: absolute;
       left:113%;
       margin-right: -50%;
-      margin-top: 820px;
+      top: 1030px;
       transform: translate(-50%, -50%);
     }
     .absoluteTimelinePos{
