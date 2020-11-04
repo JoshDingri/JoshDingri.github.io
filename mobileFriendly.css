@@ -313,16 +313,14 @@
       display: none;
     }
     #bookImage {
-      position: fixed;
       height: 50px;
       width: 50px;
       left:113%;
-      margin-top: 1175px;
+      top: 1145px;
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
     #gradimage {
-      position: fixed;
       left:113%;
       margin-top: 150px;
       margin-right: -50%;
@@ -331,9 +329,8 @@
       width: 50px;
     }
     #bookImage2 {
-      position: fixed;
       left:113%;
-      margin-top: 700px;
+      top: 915px;
       margin-right: -50%;
       transform: translate(-50%, -50%);
       height: 50px;
