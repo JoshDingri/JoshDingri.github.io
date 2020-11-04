@@ -347,7 +347,9 @@
         max-width: 1000px;
         height: 2000px;
     }
-
+    .relativelineContainer{
+        position: relative;
+    }
     #vl {
       border-left: 3px solid #1C3863;
       height: 1400px;
