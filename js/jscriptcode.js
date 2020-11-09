@@ -82,6 +82,7 @@ function removeType(i,isTag,text,str2) {
 $(function(){
 function scrollToAnchor(aid){
   var aTag = $("a[name='"+ aid +"']");
+  console.log(aTag);
   $('html,body').animate({scrollTop: aTag.offset().top -100},'slow');
 }
 
@@ -97,7 +98,10 @@ $("#educationlink").click(function(e) {
 
 $("#projectslink").click(function(e) {
   e.preventDefault();
-  scrollToAnchor('projects-anchor');
+  if(window.matchMedia("(max-width: 1000px)"))
+    scrollToAnchor('projects-anchor-mob');
+  else
+      scrollToAnchor('projects-anchor');
 });
 
 $("#experiencelink").click(function(e) {

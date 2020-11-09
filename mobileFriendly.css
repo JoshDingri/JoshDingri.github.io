@@ -47,7 +47,6 @@
     }
     #projects-section {
       height: 1000px;
-      padding-bottom: 230px;
       padding-top: 20px;
       text-align: center;
       background-color:#F9FBFD;
@@ -190,11 +189,11 @@
 
     .hl {
       border-left: 3px solid #1C3863;
-      height: 1290px;
+      height: 1360px;
       position: absolute;
       left:-13%;
       margin-right: -50%;
-      margin-top: 800px;
+      margin-top: 820px;
       transform: translate(-50%, -50%);
     }
 
@@ -428,6 +427,10 @@
         border: 1.8px solid #1a9c95;
         padding: 4px;
     }
+    .topnav:hover .nav-text{
+      color:rgba(255,255,255,1);
+    }
+
     .nav-text {
       display: inline-block;
       visibility:visible;
