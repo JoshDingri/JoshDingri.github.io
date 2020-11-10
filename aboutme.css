@@ -5,7 +5,8 @@
   text-align: center;
   background-color:#F9FBFD;
   margin-top: -20px;
-  max-width: 1500px;
+  max-width: 100%;
+  max-height: 450px;
 }
 #about-text {
   max-width: 1500px;
@@ -18,8 +19,7 @@
   float: left;
   font-size: 17px;
   text-align: left;
-  max-width: 500px;
-  
+  max-width: 550px;
 }
 
 #contactImages  {
@@ -62,6 +62,7 @@
     {
       text-align:center;
       width:300px;
+      float: none;
     }
     #text-div 
     {
@@ -69,8 +70,18 @@
       font-size: 15px;
       text-align: left;
       max-width: 300px;
-      
     }
+}
+
+@media only screen and (min-width: 1000px) {
+    #imageContainer
+    {
+      margin-left: 20px;
+      text-align:right;
+      width:400px;
+      float: right;
+    }
+
 }
 
 #imageme{
@@ -101,5 +112,6 @@ ul li{
     display: inline-block;
 }
 #profileHeaderDesktop{
-    display: block;
+    margin-top: 40px;
+    margin-left: -40px;
 }
