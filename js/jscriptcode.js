@@ -11,7 +11,7 @@ str3 = "<span id='welcome'>This website is under construction<span class='punc'>
   j = 0;
   isTag = false;
   text = "";
-  setTimeout(function() {type(i,isTag,text,str3);}, 1000);
+  setTimeout(function() {type(i,isTag,text,str5);}, 1000);
     
     
 
@@ -36,11 +36,10 @@ str3 = "<span id='welcome'>This website is under construction<span class='punc'>
   function type(i,isTag,text,str2){
     text = str2.slice(0, ++i);
     if (text === str2) {
-      if(count < 2){
-        if(count == 1)
+      if(count < 1){
           setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
-        else
-          setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
+//        else
+//          setTimeout(function() { removeType(i,isTag,text,str2);}, 2000);
       }
       return;
     }
@@ -61,9 +60,9 @@ function removeType(i,isTag,text,str2) {
     i = 0;
     count++;
     if(count == 1)
-      setTimeout(function() { type(i,false,"",str5);}, 100);
-    else if(count == 2)
       setTimeout(function() { type(i,false,"",str);}, 100);
+//    else if(count == 2)
+//      setTimeout(function() { type(i,false,"",str);}, 100);
     return;
   }
   document.getElementById('bio').innerHTML = text;
@@ -93,12 +92,15 @@ $("#aboutlink").click(function(e) {
 
 $("#educationlink").click(function(e) {
   e.preventDefault();
-  scrollToAnchor('education-anchor');
+  if(window.matchMedia("(max-width: 1000px)").matches)
+    scrollToAnchor('education-anchor-mob');
+  else
+    scrollToAnchor('education-anchor');
 });
 
 $("#projectslink").click(function(e) {
   e.preventDefault();
-  if(window.matchMedia("(max-width: 1000px)"))
+  if(window.matchMedia("(max-width: 1000px)").matches)
     scrollToAnchor('projects-anchor-mob');
   else
       scrollToAnchor('projects-anchor');
@@ -111,11 +113,15 @@ $("#experiencelink").click(function(e) {
 
 $("#abilitieslink").click(function(e) {
   e.preventDefault();
-  scrollToAnchor('abilities-anchor');
+  if(window.matchMedia("(max-width: 1000px)").matches)
+    scrollToAnchor('abilities-anchor-mob');
+  else
+    scrollToAnchor('abilities-anchor');
 });
 
 $("#contactlink").click(function(e) {
   e.preventDefault();
+
   scrollToAnchor('contact-anchor');
 });
     

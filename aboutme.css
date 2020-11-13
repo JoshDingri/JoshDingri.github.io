@@ -1,6 +1,6 @@
 
 #about-section {
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   padding-top: 50px;
   text-align: center;
   background-color:#F9FBFD;
@@ -94,7 +94,6 @@
 
 #profileSection{
   font-family: MontserratBold;
-  padding-top: 43px;
   margin: auto -42px 0;
   max-width: 1000px;
 }
