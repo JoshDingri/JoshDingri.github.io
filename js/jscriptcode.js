@@ -85,7 +85,7 @@ function scrollToAnchor(aid){
   $('html,body').animate({scrollTop: aTag.offset().top -100},'slow');
 }
 
-$("#aboutlink").click(function(e) {
+$(".aboutlink").click(function(e) {
   e.preventDefault();
   scrollToAnchor('about-anchor');
 });

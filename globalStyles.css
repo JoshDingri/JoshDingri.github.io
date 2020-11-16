@@ -67,3 +67,19 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+#downArrow{
+    width: 60px;
+    display: block;
+}
+
+#arrowpadding{
+    padding-top: 590px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  body[data-aos-delay='10100'] [data-aos],
+  [data-aos][data-aos][data-aos-delay='10100'] {
+    transition-delay: 10100ms;
+  }
