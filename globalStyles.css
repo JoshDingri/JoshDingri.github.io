@@ -71,12 +71,12 @@ html, body {
 #downArrow{
     width: 60px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #arrowpadding{
     padding-top: 590px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
   body[data-aos-delay='10100'] [data-aos],
