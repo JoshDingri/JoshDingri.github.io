@@ -1,3 +1,9 @@
+/*
+body{
+    zoom: 0%;
+}
+*/
+
 @font-face {
     font-family: MontserratReg;
     src: url(Fonts/Montserrat-Regular.ttf) format('truetype');
@@ -76,7 +82,7 @@ html, body {
 }
 
 #arrowpadding{
-    padding-top: 590px;
+    padding-top: 530px;
 }
 
   body[data-aos-delay='10100'] [data-aos],

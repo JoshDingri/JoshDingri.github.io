@@ -17,7 +17,7 @@
 #text-div {
   font-family: MontserratReg;
   float: left;
-  font-size: 17px;
+  font-size: 16px;
   text-align: left;
   max-width: 550px;
 }
@@ -26,10 +26,10 @@
   font-family: MontserratReg;
   font-size: 14px;
   padding-top: 5px;
+  padding-left: 24px;
   clear: right;
   text-align: center;
   justify-content: space-around;
-
 }
 
 #contactImageLI {
@@ -112,6 +112,7 @@ ul li{
     display: inline-block;
 }
 #profileHeaderDesktop{
-    margin-top: 40px;
+    width: 700px;
+    margin-top: 30px;
     margin-left: -40px;
 }

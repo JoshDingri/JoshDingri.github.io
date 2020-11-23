@@ -82,7 +82,7 @@ $(function(){
 function scrollToAnchor(aid){
   var aTag = $("a[name='"+ aid +"']");
   console.log(aTag);
-  $('html,body').animate({scrollTop: aTag.offset().top -100},'slow');
+  $('html,body').animate({scrollTop: aTag.offset().top -90},'slow');
 }
 
 $(".aboutlink").click(function(e) {
