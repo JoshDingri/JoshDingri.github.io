@@ -74,6 +74,14 @@ html, body {
     overflow-y: auto;
 }
 
+#companysite{
+    font-weight: bold;
+    color: skyblue;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: MontserratReg;
+}
+
 #downArrow{
     width: 60px;
     display: block;
